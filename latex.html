@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Hillary Sanders</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<nav class="blue-grey" role="navigation">
+    <div class="nav-wrapper container">
+
+        <!-- Dropdown Structure -->
+        <ul id="dd_art" class="dropdown-content blue-grey">
+            <li><a href="draw.html" class="white-text">draw</a></li>
+            <li><a href="sharpie.html" class="white-text">sharpie</a></li>
+            <li><a href="paint.html" class="white-text">paint</a></li>
+            <li><a href="mixed.html" class="white-text">mixed</a></li>
+        </ul>
+        <ul id="dd_cheatsheets" class="dropdown-content blue-grey">
+            <li><a href="python.html" class="white-text">Python</a></li>
+            <li><a href="r.html" class="white-text">R</a></li>
+            <li><a href="unix.html" class="white-text">UNIX</a></li>
+            <li><a href="latex.html" class="white-text">LaTeX</a></li>
+            <li><a href="probability.html" class="white-text">Probability</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo hillz">&nbsp;&nbsp;&nbsp;hillz</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="recent_projects.html">Recent Projects</a></li>
+                    <li><a href="bayesian_statistics.html">Bayesian Statistics</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#!" data-activates="dd_cheatsheets">
+                        Cheatsheets
+                        <i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" href="" data-activates="dd_art">
+                        Art
+                        <i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul id="nav-mobile" class="side-nav blue-grey white-text">
+            <li><a href="index.html" class="white-text">HOME</a></li>
+            <li><a href="resume.html" class="white-text">Resume</a></li>
+            <li><a href="recent_projects.html" class="white-text">Recent Projects</a></li>
+            <li><a href="bayesian_statistics.html" class="white-text">Bayesian Statistics</a></li>
+            <li><a href="about_me.html" class="white-text">About Me</a></li>
+            <li><a class="white-text">Art</a></li>
+            <li><a href="draw.html" class="white-text">&nbsp;&nbsp;&nbsp;draw</a></li>
+            <li><a href="sharpie.html" class="white-text">&nbsp;&nbsp;&nbsp;sharpie</a></li>
+            <li><a href="paint.html" class="white-text">&nbsp;&nbsp;&nbsp;paint</a></li>
+            <li><a href="mixed.html" class="white-text">&nbsp;&nbsp;&nbsp;mixed</a></li>
+            <li><a class="white-text">Cheatsheets</a></li>
+            <li><a href="python.html" class="white-text">&nbsp;&nbsp;&nbsp;Python</a></li>
+            <li><a href="r.html" class="white-text">&nbsp;&nbsp;&nbsp;R</a></li>
+            <li><a href="unix.html" class="white-text">&nbsp;&nbsp;&nbsp;UNIX</a></li>
+            <li><a href="latex.html" class="white-text">&nbsp;&nbsp;&nbsp;LaTeX</a></li>
+            <li><a href="probability.html" class="white-text">&nbsp;&nbsp;&nbsp;Probability</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<div class="row center">
+    <h2 class="header col s12 white-text">LaTeX</h2>
+</div>
+
+
+<div class="row">
+    <div class="col s12 m4 l3">
+        <div class="cheatbox">
+            <h5>Basics</h5>
+            <p> There are two types of text inside <b>LaTeX</b>: math text, and normal text. </br>
+                <b> $ ... $ = math text </br>
+                    $$ ... $$ = math text on a centered, new line </br>
+                    / = Needed in front of any math symbol. </br> </b>
+                Comments are prefaced with a "<b>%</b>" sign.</br>
+                To create your actual <b>LaTeX</b> document, run </br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;latex name-of-file.tex
+                from the terminal.
+        </div>
+
+        <div class="cheatbox">
+            <h5> Example </h5>
+            \documentclass[11pt]{article} </br>
+            \usepackage{amstex} </br>
+            </br>
+            \begin{document} </br>
+            </br>
+            La la la math is so cool.... </br>
+            \textbf{bold!} </br>
+            \textit{talicised!} </br>
+            \texttt{typewriter-text} </br>
+            \size{ <b> where size = tiny, scriptsize, footnotesize, small, normalsize, large, Large, or LARGE, huge, HUGE </b> }
+            </br>
+            (Rest of the paper)</br>
+            </br>
+            \end{document} </br>
+        </div>
+    </div>
+
+    <div class="col s12 m4 l3">
+        <div class="cheatbox">
+
+            <h5>Document Classes</h5>
+            <b>LaTeX</b> files begin with a command: \documentclass. </br> For instance, you may have:
+            <center>\documentclass[11pt]{article}</center> </br>
+            <li><b> article:</b> for articles, the most commonly used class </li>
+            <li><b> report:</b> variant of article for a report</li>
+            <li><b> letter:</b> for letters</li>
+            <li><b> book:</b> for chapters of a book</li>
+            <li><b> proc:</b> for proceedings, based on article</li>
+            <li><b> slides:</b> to produce transparencies</li>
+            </p>
+
+        </div>
+
+        <div class="cheatbox">
+            <h5> Packages </h5>
+            You may also import packages into <b>LaTeX</b>, generally for extra symbols. For instance, you may have: </br>
+            <center>\documentclass[11pt]{article} </br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\usepackage{amstex, amssymb, amscd}  </center> <br>
+            <b> Common Packages </b>
+            <li><b> amsmath, amsthm:</b> These packages have a lot of standard math symbols. </li>
+            <li><b> amssymb:</b> Additional fonts and symbols. </li>
+            <li><b> amscd:</b> This is a package for typesetting simple commutative diagrams. It's lightweight and easy to use, but it cannot handle diagonal arrows; if you need diagonal arrows, use the xy package described below. </li>
+            <li><b>xy</b>: This package that loads the "xy-pic" program, a general drawing package for TeX that is great for drawing directed graphs and complex commutative diagrams. Very powerful.</li>
+            <li><b> graphicx:</b> The graphicx package allows you to include graphics created by other applications. The graphics files must be in eps (encapsulated postscript) format. </li>
+            <li><b> microtype </b> The microtype package improves the spacing between words and letters. Load this package after any font packages you load, as the package behavior is dependent on this font. Basically, it just makes stuff a tad bit prettier. </li>
+            <li><b>geometry</b> Allows you to alter the margins of your page. </li>
+        </div>
+
+    </div>
+
+
+    <div class="col s12 m4 l3">
+
+        <div class="cheatbox">
+            <h5>Formatting</h5>
+
+            <b>  The main way of controlling the format of your document is by using matched pairs of \begin{ } and \end{ } commands. You may declare such an environment in one of the following ways:</b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\begin{itshape} </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The polynomial $p(t)$ splits... </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{itshape} </br>
+            or simply: </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\itshape The polynomial $p(t)$ splits ...} </br>
+
+            </br>
+            </br>
+            <b> State a proposition or theorom </b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\begin{prop} </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the text of my awesome proposition </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{prop} </br>
+            </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\newtheorem{thm}{Theorem} </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\begin{thm}[Main Theorem] </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main theorem. </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{thm} </br>
+            </br>
+
+            <b> List things (1., 2., 3. ...) </b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\begin{enumerate} </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\item  $M$ is complete </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\item  $f$ is proper </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{enumerate} </br>
+            </br>
+            <b> Center (or underline) Text </b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\begin{center}</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspThis will be centered!</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\end{center}</br>
+            (or <b> underline </b>)</br>
+            </br>
+
+            <b> Spacing </b></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\vskip100pt</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\newpage</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\newline</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\linebreak</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\\ = new paragraph</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp\\* = new line, but not a new paragraph</br>
+
+            </br>
+            <b> Tables </b> </br>
+            The 8 c's tell <b>LaTeX</b> that the table should have 8 columns, and the entries in each column are to be centered (using l or r makes them left or right justified). The vertical bar characters, |, tell <b>LaTeX</b> to draw vertical lines between the first and second columns, and after the eighth.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\begin{center}</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\begin{tabular}{c|ccccccc|}</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $\lambda$& (5)& (4,1)& (3)& (3,1)& (2)& (1)& (1,1)\\</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\hline </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $d_{_\lambda}$& 1& 4& 5& 6& 5& 4& 1\\ </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{tabular}</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{center}</br>
+            </br>
+        </div>
+    </div>
+
+    <div class="col s12 m4 l3">
+        <div class="cheatbox">
+            <h5>Formatting (2)</h5>
+            <b> Sections </b><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\section{Introductory Remarks} </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\subsection{ }</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\subsubsection{ }</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\chapter{ } (only in report and book document styles</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\label{ }</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ref{ }</br>
+            <b> e.g.: </b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\subsection{Garden Flowers}</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   \label{Tulips}</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... as we saw in Section \ref{Tulips}, tulips are damned pretty ... </br>
+            </br>
+            <b> Bibliographies </b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\begin{thebibliography}{[AHU]} </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\bibitem[AHU]{ahu} Aho, A.,\ Hopcroft, J.,\ and </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ullman, J.\ (1976).  {\em{The Design and</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of Computer Algorithms.}} Addison</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wesley, Reading, Mass.</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\bibitem[AT]{AT} Auslander, L. and Tolmieri, R. </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1979). Is Computing with the Fast Fourier</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transform Pure or Applied Mathematics?</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\em{Bulletin (New Series) of the AMS Vol. 1}} </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;847-897.</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{thebibliography}</br>
+            </br>
+
+            <b> Equations </b>
+            Using the equation environment puts you in math mode, so you don't need to use $ sigs, and creates a numbered, centered equation. </br>
+            </br>
+            <b> Subcripting and Superscripting </b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subscript: $\alpha_j$ </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;superscript: $\alpha^j$  </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;both: $\alpha_j^i$ </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extra-low subscript: $\alpha_{_j}$ (applies lowering operator, "_", twice) </br>
+            </br>
+            <b> Text Inside Math </b> </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$ \{\psi \mid \psi \text{ is an additive character}\} $$.
+            In math mode, <b>LaTeX</b> ignores all spaces. So, it's good to use the following to tell <b>LaTeX</b> to space text-based symbols as text. </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$  X := \operatorname{Spec}A $$
+        </div>
+    </div>
+</div>
+    <div class="divider"></div>
+    <div class="row">
+        <br><br>
+        <div class="col s12 m6 l3">
+            <a><img width=100% src="images/cheatsheet-pics/latex0.jpg" alt="" /></a>
+        </div>
+        <div class="col s12 m6 l3">
+            <a><img width=100% src="images/cheatsheet-pics/latex1.jpg" alt="" /></a>
+        </div>
+
+        <div class="col s12 m6 l3">
+            <a><img width=100% src="images/cheatsheet-pics/latex2.jpg" alt="" /></a>
+        </div>
+        <div class="col s12 m6 l3">
+            <a><img width=100% src="images/cheatsheet-pics/latex3.jpg" alt="" /></a>
+        </div>
+    </div>
+
+
+<!--  Scripts-->
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>

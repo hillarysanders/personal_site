@@ -81,5 +81,43 @@ change "brown" to something of your choosing
 
 
 h1 {
-  font-size: 120px;
+  font-size: 200px;
+}
+
+
+
+.cheatbox {
+  background-color: white;
+  padding: 15px;
+  border: 8px solid #809dab;
+  margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: "typogarden-demo";
+  src: url("../fonts/typogarden-demo.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "DutchHarley";
+  src: url("../fonts/DutchHarley.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "LittleSnorlax";
+  src: url("../fonts/LittleSnorlax.ttf") format("truetype");
+  font-weight: 200;
+}
+
+.hillz {
+  color: white;
+  font-family: "DutchHarley", "LittleSnorlax", "typogarden-demo", "sans-serif";
+}
+
+.materialboxed:hover:not(.active) {
+  opacity: 1;
+}
+
+.materialboxed {
+  transition: opacity .1s;
 }
