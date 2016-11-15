@@ -75,72 +75,185 @@
     <h5 class="white-text">Coming soon to a theater near you...</h5>
 </div>
 
-<div class="row">
-    <div class="col s12 m4 l3">
-        <div class="cheatbox">
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <div class="col s12 m6">
+                <div class="col s12 recent_projects_box">
+                    <h4 class="white-text">For the Funzies</h4>
+                    <div class="cheatbox">
+                        <a href="http://www.recipestasher.com/"><h5>RescipeStasher</h5></a>
+                        A free, ad-less site that can parse free-form recipe text with NLP, enabling unit and
+                        servings conversion that actually works and can stack... Unlike all the other ten thousand recipe websites out there :-).
+                        It also incorporates (my) art by matching drawings to each recipe's ingredients.
+                        <br><br>
+                        The site uses a <a href="https://www.djangoproject.com/">django</a> (python) framework
+                        (combined with <a href="http://materializecss.com/">materialize</a>, a nice CSS framework) and
+                        a <a href="https://www.postgresql.org/">postgreSQL</a> database (hosted on <a href="https://aws.amazon.com/">AWS</a>).
+                        The website is deployed via <a href="https://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk</a>.
+                        I wrote all of the code. Yay. :)
+                        <br><br>
+
+                        - <a href="http://www.recipestasher.com/">the website</a>
+                        <br>
+                        - <a href="http://www.recipestasher.com/recipes/detail/lasagna,103/">an example recipe</a>
+                        <br>
+                        - <a href="http://www.recipestasher.com/cookbook/?search=&public_search=on">some public recipes</a>
+                        <br>
+                        - <a href="https://github.com/hillarysanders/recipereader">the code (github)</a>
+                        <br>
+                        - <a href="https://waffle.io/hillarysanders/recipereader">issues waffle board</a>
+
+                    </div>
+                    <div class="cheatbox">
+                        <a href=http://hillarysanders.com/bayesian_statistics.html"><h5>Notes on Bayesian Statistics - a booklet</h5></a>
+                        The good: it does actually have about 40 pages. And it's all written in lovely <a href="https://www.latex-project.org/">LaTeX</a>.
+                        The bad: It's yet unfinished, and has been stagnant for the past three years.
+                    </div>
+                    <div class="cheatbox">
+                        <a href="http://hillarysanders.com/index.html"><h5>This</h5></a>
+                        Nah, not a lovely long treatise about Javascript's 'this' - just <i>this</i> website.
+                        <br><br>
+                        - <a href="https://github.com/hillarysanders/personal_site">the code (github)</a>
+                    </div>
+
+                </div>
+                <div class="col s12"><spacer><center>***</center></spacer></div>
+                <div class="col s12 recent_projects_box">
+                    <h4 class="white-text">Edu-related Projects (old)</h4>
+                    <div class="cheatbox">
+                        <h4>edu-related projects</h4>
+                        <b></b>
+                        <h5> Creating an R Package: Legistative Text Mapping and Directed Acyclic Graphs </h5>
+                        From 2011  to 2012 I worked with the fantastic Mark Huberty, a graduate student in Political Science at the Travers Department at UC Berkeley (who is awesome and basically is the reason I got interested in doing what I'm now happily doing with my life. Props.) I helped develop an original R package to map the evolution of legislation from its introduction as a bill, through the amendment process, until finalization. There are five core pieces of functionality in the Leghist package: 
+                        1. Mapping of amendments to their locations in legislative bills. </br>
+                        2. Identification of discarded material. </br>
+                        3. Mapping of sections between editions of bills.</br>
+                        4. Modeling of the content of added and discarded material.</br>
+                        5. Visualization of the flow of bill content, by subject matter.
+                            
+                         Although I was somewhat involved in all parts of the above, I wrote the code for 5). There were two master functions that I created for the package. Both took raw output from 1:4), and created customizable, yet automated, directed ayclic graphs, implemented through the R package igraph. I also wrote automated scripts to test these functions' functionality.
+                        
+                        
+                        I also worked on figuring out how to document (by implementing Roxygen2), test, and finally create the R package in an automated fashion.
+                        
+
+                        <center><bold> *** </bold></center>
+
+                        <h5> Automated Pulling, XML Parsing, and Visualization of World Bank Country-wise Economic Indicators.
+                        </h5>
+                         This was actually for a school project. I worked with a good group of kids, and we all took our own chunks of the intended project and just sort of ran with it. My goal was to completely automate, and make easily adjustable, the automated pulling of World Bank data, and do the same for some really awesome looking, and informative (!) graphs. I would show you the pretty pictures, but I left my laptop out in the rain, so...
+                        
+
+
+                        <center><bold> *** </bold></center>
+
+                        <h5>Using Tweets and Bayesian Statistical Analysis to Model the 2012 Presidential Election</h5><br>
+                         <a href="pics/twitter_paper/midterm.pdf" title="Fun With Twitter!"> <font color="000000"> This was one of those class projects that was just way too much fun. I wrote a paper describing this project, which this text links to. Basically, I created a forecasting model which predicts state-level vote-share probabilities by using a hierarchical Bayesian model to incorporate the simple text analysis of state-specific tweets into predictions. The model used Markov chain Monte Carlo methods to develop the final posterior distribution. Model priors were based off of state-level 2004 and 2008 vote-share data. Data consisted of recent tweets mentioning 'Obama' or 'Romney'. Although the simple text analysis of tweets is not a perfect substitute for polling data (problems will be discussed below), it offers a potential way to bolster political forecasting models. </font> </a>
+                        
+
+                        <center><bold> *** </bold></center>
+
+                        <h5> Homegrown Random Forests </h5>
+                        
+                        This was part of a fun machine learning project I worked on with two other students from Berkeley. Basically we tried to predict baseball
+                        players' success by the players' past stats. We implemented a plethora of different machine learning methods; I wrote a random forest
+                        learner from scratch. Why? Because. It was pretty fun. Code can be found
+                        <a href="pics/random_forest.R" title="Random Forest Code"> <font color="#001070"> here </font> </a> and <a href="pics/random_forest_script.R"> <font color="#001070">
+                        here </font> </a>.
+                        
+
+                        <center><bold> *** </bold></center>
+
+                        <h5> Voting with your Tweet: Forecasting elections with social media data; Broadcasting live predictions online
+                        </h5>
+                         This project broadcasted live, out-of-sample congressional elections predictions based on Mark Huberty's SuperLearner-based algorithm
+                        which takes tweets as input. I helped Mark (who is awesome and taught me nearly everything) by cleaning up code, writing a bit myself,
+                        and gathering congressional candidate data.
+                        
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="col s12 recent_projects_box">
+                    <h4 class="white-text">Traded for Monies</h4>
+                    (sorry, no links to code, just lovely vague descriptions)
+                    <div class="cheatbox">
+                        <h5>SLA Schema + SLA Ingest and Evaluation Pipelines</h5>
+                        The way our company made money was to sign contracts with SLAs (Service Language Agreements) basically saying that we would "gather X data, with Y requirements, and Z restrictions",
+                        and then fulfill those contracts by paying contributors money to capture that data. An example contract might require that we capture 30 price observations per month (with price SD < .2), and at least five per week
+                        for two brands each for twenty specific consumer products, and all of this for each of seven different regions, with at least 9000 observations per month.
+                        <br><br>
+                        This information, while human readable, was not machine readable. So things like progress dashboards had to be written specifically for each new contract, instead of spun up automatically.
+                        This wasn't scalable, so I designed a 'SLA' schema that could describe a broad range of SLAs requirements via a JSON blob.
+                        <br><br>
+                        After I translated all current contracts to this machine-readable format and augmented an existing system to push this data (in google-docs, editable by certain employees) to a redshift db.
+                        Then, I wrote a pipeline to track SLAs against their contract's data (ran daily). The pipeline tracked % SLA coverage, as well as budgeting overages, across all facets listed in the SLA
+                        (e.g. product X brand X month X region, product X brand X week, product X month, product, etc...)
+                    </div>
+                    <div class="cheatbox">
+                        <h5>Interactive Data-Drill-Down App (Shiny)</h5>
+                        Created an interactive web application that allows users to visualize an aggregated time series'
+                        component series, or metrics regarding their component series, and drill down to discover more about
+                        a specific series. Consisted of about a dozen unique plot types, various search mechanisms,
+                        metrics, and options.
+                        <br><br>
+                        The applications was built entirely in R's <a href="http://shiny.rstudio.com/">Shiny</a> framework.
+                    </div>
+                    <div class="cheatbox">
+                        <h5>Places Clustering</h5>
+                        Given many observations, each with:
+                        <br><br>
+                        <li>longitude, latitude coordinates with non-gaussian error distributions</li>
+                        <li>coordinate 'accuracy' (expected SD in meters) metric</li>
+                        <li>as associated user (observations within users were highly autocorrelated)</li>
+                        <li>a hand-typed (read: messy) place name,</li>
+                        <br>
+                        I developed a method of clustering these observations to back out 'true' places, and confidence metrics regarding each clustered place's location, name, and actual existence.
+                        This was used to help better direct our users when capturing further observations (place based tasks), and used to create better price indices.
+                    </div>
+                    <!--<div class="cheatbox">-->
+                        <!--<h5>Places Coverage Estimation</h5>-->
+                    <!--</div>-->
+
+                    <div class="cheatbox">
+                        <h5>Optimal Volume Allocation in Surveys</h5>
+                        Developed formula (lagrange minimization) to define optimal volume allocation, given a budget, and a goal to minimize
+                        the standard error in the end product: an aggregated (over weights) price time series.
+                    </div>
+                    <div class="cheatbox">
+                        <h5>Product Hierarchies & Weights Upkeep System</h5>
+                        Developed and maintained system to handle many (quite complex) weights hierarchies. Enforced a series of
+                        tests to ensure that end node weights always summed to 1, etc...
+                    </div>
+                    <div class="cheatbox">
+                        <h5>Changepoint, Bimodality detection in price time series</h5>
+                        Just another pipeline :). What it sounds like. Data pull, estimation, plots, results push.
+                    </div>
+                    <div class="cheatbox">
+                        <h5>Automated Visualizations of Medicare Data</h5>
+                        This is part of what I worked on for the my summer (2012) internship with Acumen LLC. I wrote
+                        various R functions which took as input excel workbooks, which the functions parsed, organized, and plotted in some way. Ex:
+                        <br>
+                        <i>
+                            - <code>Fn:</code> Plots normalized values of multiple variables over all districts or all states in the
+                            United States with a segmented scatter plot. A state <code>s</code> is highlighted and its values
+                            shown. All points above a <code>n</code> standard deviations from the mean become two-letter
+                            state abbreviations, or three-letter district abbreviations.
+                            <br>
+                            - <code>Fn:</code> Allows viewers to spot the professional relationships among (often many thousands of)
+                            doctors. First, creates a base distance metric to represent professional closeness among two
+                            doctors Di and Dj. This involved variables like the number of beneficiaries Di and Dj share,
+                            weighted by billing, the % of beneficiaries Di and Dj share with regards to their own unique
+                            beneficiary service count, weighted by billing, etc.
+                        </i>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="cheatbox">
-        </div>
-
-        <div class="cheatbox">
-        </div>
-
-        <div class="cheatbox">
-
-        </div>
-
     </div>
-
-    <div class="col s12 m4 l3">
-
-        <div class="cheatbox">
-
-        </div>
-        <div class="cheatbox">
-
-        </div>
-        <div class="cheatbox">
-
-        </div>
-
-        <div class="cheatbox">
-
-        </div>
-    </div>
-    <div class="col s12 m4 l3">
-        <div class="cheatbox">
-
-        </div>
-
-        <div class="cheatbox">
-
-        </div>
-
-        <div class="cheatbox">
-
-        </div>
-        <div class="cheatbox">
-
-        </div>
-    </div>
-
-    <div class="col s12 m4 l3">
-        <div class="cheatbox">
-
-        </div>
-        <div class="cheatbox">
-
-        </div>
-
-        <div class="cheatbox">
-
-        </div>
-        <div class="cheatbox">
-
-        </div>
-    </div>
-
 </div>
 
 

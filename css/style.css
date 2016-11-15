@@ -83,14 +83,17 @@ change "brown" to something of your choosing
 h1 {
   font-size: 200px;
 }
-
+h5 {
+    font-size: 1.5rem;
+}
 
 
 .cheatbox {
   background-color: white;
-  padding: 15px;
+  padding: 10px;
   border: 8px solid #809dab;
-  margin-bottom: 20px;
+  marn-bottom: 20px;
+  margin-top: 20px;
 }
 
 @font-face {
@@ -120,4 +123,27 @@ h1 {
 
 .materialboxed {
   transition: opacity .1s;
+}
+
+.recent_projects_box {
+  background-color: RGBA(128, 157, 171, .46);
+  padding: 25px !important;
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 2560px;
+  width: 80%;
+}
+spacer: {
+    height: 25px;
+}
+code{
+    letter-spacing:-.1em;
+    font-size: 17px;
+    font-family: "Courier";
+    color:#238543;
+
 }
