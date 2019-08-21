@@ -71,7 +71,7 @@
 </nav>
 
 <div class="row center">
-    <h2 class="header col s12 white-text">Recent Projects</h2>
+    <h2 class="header col s12 white-text">Projects</h2>
 </div>
 
 <div class="container">
@@ -79,7 +79,20 @@
         <div class="col s12">
             <div class="col s12 m6">
                 <div class="col s12 recent_projects_box">
-                    <h4 class="white-text">For the Funzies</h4>
+                    <h4 class="white-text">For the Fun of It</h4>
+
+                    <div class="cheatbox">
+                        <a href="https://www.amazon.com/Malware-Data-Science-Detection-Attribution-ebook/dp/B077X1V9SY"><h5>Malware Data Science</h5></a>
+                        I teamed up with Joshua Saxe to write "Malware Data Science"
+                        (published by <a href="https://nostarch.com/malwaredatascience">No Starch Press</a>),
+                        a book that introduces data science techniques for malware
+                        detection and analysis. I wrote the two chapters that focus on neural networks, and edited other chapters.
+                        <br><br>
+                        100% of author proceeds are donated to the Environmental Defense Fund.
+                        <br><br>
+                        <img width="50%" class="materialboxed responsive-img square lazy center" src="images/malware-data-science.jpg">
+                    </div>
+
                     <div class="cheatbox">
                         <a href="http://www.recipestasher.com/"><h5>RescipeStasher</h5></a>
                         A free, ad-less site that can parse free-form recipe text with NLP, enabling unit and
@@ -117,14 +130,18 @@
                     </div>
 
                 </div>
-                <div class="col s12"><spacer><center>***</center></spacer></div>
+                <div class="col s12">
+                    <spacer>
+                        <center>***</center>
+                    </spacer>
+                </div>
                 <div class="col s12 recent_projects_box">
                     <h4 class="white-text">Edu-related Projects (old)</h4>
                     <div class="cheatbox">
                         <h4>edu-related projects</h4>
                         <b></b>
                         <h5> Creating an R Package: Legistative Text Mapping and Directed Acyclic Graphs </h5>
-                        From 2011  to 2012 I worked with the fantastic Mark Huberty, a graduate student in Political Science at the Travers Department at
+                        From 2011 to 2012 I worked with the fantastic Mark Huberty, a graduate student in Political Science at the Travers Department at
                         UC Berkeley (who is awesome and basically is the reason I got interested in doing what I'm now happily doing with my life. Props.)
                         I helped develop an original R package to map the evolution of legislation from its introduction as a bill, through the amendment
                         process, until finalization. There are five core pieces of functionality in the Leghist package:
@@ -133,54 +150,69 @@
                         3. Mapping of sections between editions of bills.</br>
                         4. Modeling of the content of added and discarded material.</br>
                         5. Visualization of the flow of bill content, by subject matter.
-                            
-                         Although I was somewhat involved in all parts of the above, I wrote the code for 5). There were two master functions that I created for
+
+                        Although I was somewhat involved in all parts of the above, I wrote the code for 5). There were two master functions that I created for
                         the package. Both took raw output from 1:4), and created customizable, yet automated, directed ayclic graphs, implemented through the R
                         package igraph. I also wrote automated scripts to test these functions' functionality.
-                        
-                        
-                        I also worked on figuring out how to document (by implementing Roxygen2), test, and finally create the R package in an automated fashion.
-                        
 
-                        <center><bold> *** </bold></center>
+
+                        I also worked on figuring out how to document (by implementing Roxygen2), test, and finally create the R package in an automated
+                        fashion.
+
+
+                        <center>
+                            <bold> ***</bold>
+                        </center>
 
                         <h5> Automated Pulling, XML Parsing, and Visualization of World Bank Country-wise Economic Indicators.</h5>
-                         This was actually for a school project. I worked with a good group of kids, and we all took our own chunks of the intended project and
+                        This was actually for a school project. I worked with a good group of kids, and we all took our own chunks of the intended project and
                         just sort of ran with it. My goal was to completely automate, and make easily adjustable, the automated pulling of World Bank data, and
-                        do the same for some really awesome looking, and informative (!) graphs. I would show you the pretty pictures, but I left my laptop out in the rain, so...
-                        
+                        do the same for some really awesome looking, and informative (!) graphs. I would show you the pretty pictures, but I left my laptop out
+                        in the rain, so...
 
 
-                        <center><bold> *** </bold></center>
+                        <center>
+                            <bold> ***</bold>
+                        </center>
 
                         <a href="images/midterm.pdf"><h5>Using Tweets and Bayesian Statistical Analysis to Model the 2012 Presidential Election</h5></a>
 
-                         Basically, I created a forecasting model which predicts state-level vote-share probabilities
-                         by using a hierarchical Bayesian model to incorporate the simple text analysis of state-specific tweets into predictions. The model used Markov chain Monte Carlo
-                         methods to develop the final posterior distribution. Model priors were based off of state-level 2004 and 2008 vote-share data. Data consisted of recent tweets
-                         mentioning 'Obama' or 'Romney'. Although the simple text analysis of tweets is a terrible substitute for polling data (problems will be discussed in the paper),
-                         it offered a potential way to bolster political forecasting models. (Note: tweets are hideously biased. In most real-life cases, -1 for using them in forecasting models)
-                        
+                        Basically, I created a forecasting model which predicts state-level vote-share probabilities
+                        by using a hierarchical Bayesian model to incorporate the simple text analysis of state-specific tweets into predictions. The model used
+                        Markov chain Monte Carlo
+                        methods to develop the final posterior distribution. Model priors were based off of state-level 2004 and 2008 vote-share data. Data
+                        consisted of recent tweets
+                        mentioning 'Obama' or 'Romney'. Although the simple text analysis of tweets is a terrible substitute for polling data (problems will be
+                        discussed in the paper),
+                        it offered a potential way to bolster political forecasting models. (Note: tweets are hideously biased. In most real-life cases, -1 for
+                        using them in forecasting models)
 
-                        <center><bold> *** </bold></center>
+
+                        <center>
+                            <bold> ***</bold>
+                        </center>
 
                         <h5> Homegrown Random Forests </h5>
-                        
-                        This was part of a fun machine learning project I worked on with two other students from Berkeley. Basically we tried to predict baseball
+
+                        This was part of a fun machine learning project I worked on with two other students from Berkeley. Basically we tried to predict
+                        baseball
                         players' success by the players' past stats. We implemented a plethora of different machine learning methods; I wrote a random forest
                         learner from scratch. Why? Because. It was pretty fun. Code can be found
-                        <a href="pics/random_forest.R" title="Random Forest Code"> <font color="#001070"> here </font> </a> and <a href="pics/random_forest_script.R"> <font color="#001070">
+                        <a href="pics/random_forest.R" title="Random Forest Code"> <font color="#001070"> here </font> </a> and <a
+                            href="pics/random_forest_script.R"> <font color="#001070">
                         here </font> </a>.
-                        
 
-                        <center><bold> *** </bold></center>
+
+                        <center>
+                            <bold> ***</bold>
+                        </center>
 
                         <h5> Voting with your Tweet: Forecasting elections with social media data; Broadcasting live predictions online
                         </h5>
-                         This project broadcasted live, out-of-sample congressional elections predictions based on Mark Huberty's SuperLearner-based algorithm
+                        This project broadcasted live, out-of-sample congressional elections predictions based on Mark Huberty's SuperLearner-based algorithm
                         which takes tweets as input. I helped Mark (who is awesome and taught me nearly everything) by cleaning up code, writing a bit myself,
                         and gathering congressional candidate data.
-                        
+
 
                     </div>
                 </div>
@@ -188,19 +220,97 @@
 
             <div class="col s12 m6">
                 <div class="col s12 recent_projects_box">
-                    <h4 class="white-text">Traded for Monies</h4>
-                    (sorry, no links to code, just lovely vague descriptions)
+                    <h4 class="white-text">Sophos - Core Projects</h4>
+                    <div class="cheatbox">
+                        <a href="https://pdfs.semanticscholar.org/b410/0c5604bff73d7115765c55f113b4469baee7.pdf"><h5>Garbage In, Garbage Out</h5></a>
+                        I wrote this paper to accompany a talk I gave at Black Hat in 2017. The basic idea was to show how malware detection model
+                        accuracy can vary wildy based on the test dataset used, which extremely relevant when you're uncertain of your production "test"
+                        dataset. To showcase this, I trained our team's URL model on three different datasets, and tested each of these trained models
+                        on time-split validation sets from the same three datasets, yielding nine sets of results. I showed how analysing the results can
+                        help tell us how sensitive a given model is to changes in the data distribution, and indicate what datasets seem to be supersets of others.
+
+                        The paper for this talk is <a href="https://pdfs.semanticscholar.org/b410/0c5604bff73d7115765c55f113b4469baee7.pdf">here</a>,
+                        and the slide deck is <a href="https://www.blackhat.com/docs/us-17/wednesday/us-17-Sanders-Garbage-In-Garbage-Out-How-Purportedly-Great-ML-Models-Can-Be-Screwed-Up-By-Bad-Data.pdf">here</a>.
+
+                    </div>
+                    <div class="cheatbox">
+                        <h5>Vendor & Model Evaluation Dashboard</h5>
+                        Our team develops many models to classify and detect malware. We want to be able to track how our competitors, our deployed models,
+                        and our test models are performing against different datasets and label definitions over time. We also want to be able to understand
+                        how our own current products will improve (or not) when combined with new detection models.
+
+                        <br><br>
+
+                        To do all of this, another engineer and I created an internal dashboard that runs evalation queries against billions of records in
+                        real-time against a redshift database. Users select options like what models and vendors to evaluate, what label definitions to use,
+                        and the time period to inspect, and the dashboard runs the resulting SQL queries to find the results, and then generates various
+                        interactive
+                        plots to showcase the results to the user.
+
+                        <br><br>
+
+                        The dashboard also provides an interface to upload files to be evaluated by our team's models.
+                    </div>
+                    <div class="cheatbox">
+                        <h5>Endpoint Detection And Response</h5>
+                        Signatures and Malware detection models aren't always 100% sure if a file is benign, or actually something malicious. When this is
+                        the case, or even when a customer's analyst wants to be extra sure about a network event or suspicious file, we want to provide easy
+                        ways for an analyst to delve deeper into the threat.
+
+                        <br><br>
+
+                        On this project, I worked with one other engineer to develop docker containers that serve up various models, run queries against an
+                        elasticsearch cluster I designed, and output a large JSON object that is served to a customer's dashboard to help them analyze a
+                        given potential threat. We developed a single codebase to work for PE, RTF, DOC, and PDF files.
+                    </div>
+                    <div class="cheatbox">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8424626"><h5>HTML Malware Detection Model</h5></a>
+                        I worked on the team to develop our HTML malware detection model. This deep learning model
+                        examines the contents of an HTML file at hierarchical spatial scales. Specifically, simple tokens are extracted from an input
+                        HTML file from a simple regular expression search, and bin-counts of the numeric hashes of these tokens are analyzed at different
+                        scales (like zooming in and out on the file).
+                        <br><br>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8424626">The paper for this model is here</a>.
+
+                    </div>
+                    <div class="cheatbox">
+                        <h5>URL Malware Detection Model</h5>
+                        I worked on the team to develop our URL malware detection model. The model is a convolutional neural network, which works by
+                        first applying a learned embedding onto characters, and then running 1-d convolutions over these character embeddings. In this way,
+                        the neural network is able to develop its own fuzzy-ngram patters, and ends up being able to detect suspicious short-strings with
+                        surprising accuracy.
+                        <br><br>
+                        <a href="https://arxiv.org/abs/1702.08568">The paper for the (older, original) model is here</a>.
+                    </div>
+<!--                    <div class="cheatbox">-->
+<!--                        <h5>Malware Label Analysis</h5>-->
+
+<!--                    </div>-->
+                </div>
+                <div class="col s12">
+                    <spacer>
+                        <center>***</center>
+                    </spacer>
+                </div>
+                <div class="col s12 recent_projects_box">
+                    <h4 class="white-text">Premise - Core Projects</h4>
                     <div class="cheatbox">
                         <h5>SLA Schema + SLA Ingest and Evaluation Pipelines</h5>
-                        The way our company made money was to sign contracts with SLAs (Service Language Agreements) basically saying that we would "gather X data, with Y requirements, and Z restrictions",
-                        and then fulfill those contracts by paying contributors money to capture that data. An example contract might require that we capture 30 price observations per month (with price SD < .2), and at least five per week
-                        for two brands each for twenty specific consumer products, and all of this for each of seven different regions, with at least 9000 observations per month.
+                        The way our company made money was to sign contracts with SLAs (Service Language Agreements) basically saying that we would "gather X
+                        data, with Y requirements, and Z restrictions",
+                        and then fulfill those contracts by paying contributors money to capture that data. An example contract might require that we capture 30
+                        price observations per month (with price SD < .2), and at least five per week
+                        for two brands each for twenty specific consumer products, and all of this for each of seven different regions, with at least 9000
+                        observations per month.
                         <br><br>
-                        This information, while human readable, was not machine readable. So things like progress dashboards had to be written specifically for each new contract, instead of spun up automatically.
+                        This information, while human readable, was not machine readable. So things like progress dashboards had to be written specifically for
+                        each new contract, instead of spun up automatically.
                         This wasn't scalable, so I designed a 'SLA' schema that could describe a broad range of SLAs requirements via a JSON blob.
                         <br><br>
-                        After I translated all current contracts to this machine-readable format and augmented an existing system to push this data (in google-docs, editable by certain employees) to a redshift db.
-                        Then, I wrote a pipeline to track SLAs against their contract's data (ran daily). The pipeline tracked % SLA coverage, as well as budgeting overages, across all facets listed in the SLA
+                        After I translated all current contracts to this machine-readable format and augmented an existing system to push this data (in
+                        google-docs, editable by certain employees) to a redshift db.
+                        Then, I wrote a pipeline to track SLAs against their contract's data (ran daily). The pipeline tracked % SLA coverage, as well as
+                        budgeting overages, across all facets listed in the SLA
                         (e.g. product X brand X month X region, product X brand X week, product X month, product, etc...)
                     </div>
                     <div class="cheatbox">
@@ -221,11 +331,13 @@
                         <li>as associated user (observations within users were highly autocorrelated)</li>
                         <li>a hand-typed (read: messy) place name,</li>
                         <br>
-                        I developed a method of clustering these observations to back out 'true' places, and confidence metrics regarding each clustered place's location, name, and actual existence.
-                        This was used to help better direct our users when capturing further observations (place based tasks), and used to create better price indices.
+                        I developed a method of clustering these observations to back out 'true' places, and confidence metrics regarding each clustered place's
+                        location, name, and actual existence.
+                        This was used to help better direct our users when capturing further observations (place based tasks), and used to create better price
+                        indices.
                     </div>
                     <!--<div class="cheatbox">-->
-                        <!--<h5>Places Coverage Estimation</h5>-->
+                    <!--<h5>Places Coverage Estimation</h5>-->
                     <!--</div>-->
 
                     <div class="cheatbox">
