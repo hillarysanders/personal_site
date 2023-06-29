@@ -100,6 +100,12 @@ h5 {
     font-size: 1.5rem;
 }
 
+.homepage-btn {
+  min-width: 250px;
+  margin-bottom: 80px;
+  height: 60px;
+  line-height: 60px;
+}
 
 .cheatbox {
   background-color: white;
@@ -110,11 +116,31 @@ h5 {
 }
 
 @font-face {
+  font-family: "winter";
+  src: url("../fonts/WinterSong-owRGB.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "songstar";
+  src: url("../fonts/SongstarFree-qLg1.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "conquest";
+  src: url("../fonts/Conquest-8MxyM.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "aiden";
+  src: url("../fonts/Aiden-v7DO.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
   font-family: "typogarden-demo";
   src: url("../fonts/typogarden-demo.ttf") format("truetype");
   font-weight: 200;
 }
-@font-face {
+/* @font-face {
   font-family: "DutchHarley";
   src: url("../fonts/DutchHarley.ttf") format("truetype");
   font-weight: 200;
@@ -123,11 +149,17 @@ h5 {
   font-family: "LittleSnorlax";
   src: url("../fonts/LittleSnorlax.ttf") format("truetype");
   font-weight: 200;
-}
+} */
 
 .hillz {
   color: white;
-  font-family: "DutchHarley", "LittleSnorlax", "typogarden-demo", "sans-serif";
+  font-family: 
+                "songstar", 
+                "conquest",
+                "winter",
+                 /* "typogarden-demo", */
+                  "sans-serif";
+  font-size: 5rem;
 }
 
 .materialboxed:hover:not(.active) {
