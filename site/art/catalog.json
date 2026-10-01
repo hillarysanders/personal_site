@@ -4333,902 +4333,6 @@
       ]
     },
     {
-      "id": "art-084",
-      "title": "Birds and ink",
-      "description": "",
-      "theme": "Wildlife",
-      "themes": [
-        "Wildlife"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1011,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-084-480.webp?v=845766c69984",
-          "avif": "assets/art-084-480.avif?v=52df3cc09658",
-          "width": 480,
-          "height": 367,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-084-900.webp?v=903d7bc7a2ef",
-          "avif": "assets/art-084-900.avif?v=6914fab4a052",
-          "width": 900,
-          "height": 689,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-084-1600.webp?v=04e9ffb81a60",
-          "avif": "assets/art-084-1600.avif?v=d8457e6351fa",
-          "width": 1600,
-          "height": 1225,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-084-2400.webp?v=0b954ffb2704",
-          "avif": "assets/art-084-2400.avif?v=ceef5810e40f",
-          "width": 2000,
-          "height": 1531,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-086",
-      "title": "Figs",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Graphite",
-      "mediaCategory": "Graphite",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1013,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-086-480.webp?v=5da681a97acf",
-          "avif": "assets/art-086-480.avif?v=57e2f9698308",
-          "width": 283,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-086-900.webp?v=60e60c2d8efd",
-          "avif": "assets/art-086-900.avif?v=bf0a03dc071c",
-          "width": 530,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-086-1600.webp?v=f07d2a96822b",
-          "avif": "assets/art-086-1600.avif?v=8e654b9ebd01",
-          "width": 942,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-086-2400.webp?v=38773ca9d7f9",
-          "avif": "assets/art-086-2400.avif?v=f1d35bbad916",
-          "width": 1178,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-089",
-      "title": "Graphite portrait",
-      "description": "",
-      "theme": "Figures",
-      "themes": [
-        "Figures"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Graphite",
-      "mediaCategory": "Graphite",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1016,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-089-480.webp?v=14dd1c361b59",
-          "avif": "assets/art-089-480.avif?v=fe49cdce80d5",
-          "width": 385,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-089-900.webp?v=0989069483ab",
-          "avif": "assets/art-089-900.avif?v=19863b552965",
-          "width": 722,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-089-1600.webp?v=94e8c9ae64a8",
-          "avif": "assets/art-089-1600.avif?v=8e6b9de0e510",
-          "width": 1284,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-089-2400.webp?v=62afb70feeac",
-          "avif": "assets/art-089-2400.avif?v=ae3c5ed0c348",
-          "width": 1605,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-091",
-      "title": "Angels",
-      "description": "",
-      "theme": "Figures",
-      "themes": [
-        "Figures"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1018,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-091-480.webp?v=512ae1b9c569",
-          "avif": "assets/art-091-480.avif?v=f8fbd40a64ff",
-          "width": 471,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-091-900.webp?v=5eb923f1631b",
-          "avif": "assets/art-091-900.avif?v=5ee17b3179d4",
-          "width": 883,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-091-1600.webp?v=2cc29a58cb5b",
-          "avif": "assets/art-091-1600.avif?v=10f94977c079",
-          "width": 1570,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-091-2400.webp?v=889ef179654e",
-          "avif": "assets/art-091-2400.avif?v=02bbb136e75e",
-          "width": 1963,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-092",
-      "title": "Apples",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1019,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-092-480.webp?v=18250e99da48",
-          "avif": "assets/art-092-480.avif?v=3cf47378671b",
-          "width": 480,
-          "height": 473,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-092-900.webp?v=e3f0764c3ce9",
-          "avif": "assets/art-092-900.avif?v=aff2708bb60b",
-          "width": 900,
-          "height": 887,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-092-1600.webp?v=06f6bd7a504a",
-          "avif": "assets/art-092-1600.avif?v=7d8c35a73ab2",
-          "width": 1600,
-          "height": 1578,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-092-2400.webp?v=aa5af075e2ab",
-          "avif": "assets/art-092-2400.avif?v=5ada5d2314cd",
-          "width": 2000,
-          "height": 1972,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-093",
-      "title": "Asparagus study",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1020,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-093-480.webp?v=4dcbe692d1d6",
-          "avif": "assets/art-093-480.avif?v=c7d395c332e1",
-          "width": 455,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-093-900.webp?v=3472227567bc",
-          "avif": "assets/art-093-900.avif?v=06981d856843",
-          "width": 853,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-093-1600.webp?v=bbef059c9a4c",
-          "avif": "assets/art-093-1600.avif?v=6532b2ca4866",
-          "width": 1517,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-093-2400.webp?v=902769fefc0c",
-          "avif": "assets/art-093-2400.avif?v=2939668531b9",
-          "width": 1896,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-094",
-      "title": "Bubble kiss",
-      "description": "",
-      "theme": "Figures",
-      "themes": [
-        "Figures"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1021,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-094-480.webp?v=b2a9d035cfaf",
-          "avif": "assets/art-094-480.avif?v=2f6fb3e7dcdb",
-          "width": 480,
-          "height": 351,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-094-900.webp?v=97e85b02affb",
-          "avif": "assets/art-094-900.avif?v=c389161e8ac8",
-          "width": 900,
-          "height": 659,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-094-1600.webp?v=4cce4856863e",
-          "avif": "assets/art-094-1600.avif?v=8d7aaeaf4a0f",
-          "width": 1600,
-          "height": 1171,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-094-2400.webp?v=ca81255cf5c0",
-          "avif": "assets/art-094-2400.avif?v=021adda9a4e7",
-          "width": 2000,
-          "height": 1464,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-096",
-      "title": "Antlered deer",
-      "description": "",
-      "theme": "Wildlife",
-      "themes": [
-        "Wildlife"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1023,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-096-480.webp?v=47b4feb7f610",
-          "avif": "assets/art-096-480.avif?v=cc529257497a",
-          "width": 379,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-096-900.webp?v=5a681f2d9f5d",
-          "avif": "assets/art-096-900.avif?v=550eb7087049",
-          "width": 711,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-096-1600.webp?v=8825f7945296",
-          "avif": "assets/art-096-1600.avif?v=20245850f622",
-          "width": 1265,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-096-2400.webp?v=26a5a08ff8a0",
-          "avif": "assets/art-096-2400.avif?v=6bdb3f2e8161",
-          "width": 1897,
-          "height": 2400,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-097",
-      "title": "Eggplant study",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1024,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-097-480.webp?v=7085fb476fd7",
-          "avif": "assets/art-097-480.avif?v=b36b78bb8e19",
-          "width": 480,
-          "height": 429,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-097-900.webp?v=9415fe83b5d9",
-          "avif": "assets/art-097-900.avif?v=2f40dd5c3027",
-          "width": 900,
-          "height": 804,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-097-1600.webp?v=a26fc06cddf2",
-          "avif": "assets/art-097-1600.avif?v=1c12c1bb7c2d",
-          "width": 1600,
-          "height": 1429,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-097-2400.webp?v=9df53fbbe761",
-          "avif": "assets/art-097-2400.avif?v=86c84e22e47a",
-          "width": 2000,
-          "height": 1786,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-098",
-      "title": "Gold peaches",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1025,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-098-480.webp?v=4fde0a01b162",
-          "avif": "assets/art-098-480.avif?v=db4789eb59a2",
-          "width": 480,
-          "height": 460,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-098-900.webp?v=e414b185cebb",
-          "avif": "assets/art-098-900.avif?v=271b2ee10636",
-          "width": 900,
-          "height": 862,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-098-1600.webp?v=3d264d1dec51",
-          "avif": "assets/art-098-1600.avif?v=00bf4fe8a077",
-          "width": 1600,
-          "height": 1533,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-098-2400.webp?v=b34edf3a9133",
-          "avif": "assets/art-098-2400.avif?v=c9eb9a5ec313",
-          "width": 2400,
-          "height": 2299,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-100",
-      "title": "Onion study",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1027,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-100-480.webp?v=c965b3284e18",
-          "avif": "assets/art-100-480.avif?v=e0b312f95df9",
-          "width": 480,
-          "height": 414,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-100-900.webp?v=bdf94eacfe2e",
-          "avif": "assets/art-100-900.avif?v=bf75b11df1e9",
-          "width": 900,
-          "height": 776,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-100-1600.webp?v=75d1f5ba4f21",
-          "avif": "assets/art-100-1600.avif?v=ed7cfabebb8f",
-          "width": 1600,
-          "height": 1380,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-100-2400.webp?v=6285c0f838f5",
-          "avif": "assets/art-100-2400.avif?v=ccaa6830ea99",
-          "width": 2000,
-          "height": 1725,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-101",
-      "title": "Rolling hills in pastel",
-      "description": "",
-      "theme": "Landscapes",
-      "themes": [
-        "Landscapes"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1028,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-101-480.webp?v=47b2fc245cfb",
-          "avif": "assets/art-101-480.avif?v=37d38748c498",
-          "width": 480,
-          "height": 318,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-101-900.webp?v=6d4200f17820",
-          "avif": "assets/art-101-900.avif?v=4c0b903f52cc",
-          "width": 900,
-          "height": 597,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-101-1600.webp?v=11ec834fe22f",
-          "avif": "assets/art-101-1600.avif?v=ebb13341a003",
-          "width": 1600,
-          "height": 1061,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-101-2400.webp?v=22b12c94773d",
-          "avif": "assets/art-101-2400.avif?v=523d62b85935",
-          "width": 2400,
-          "height": 1591,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-103",
-      "title": "Pears study",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1030,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-103-480.webp?v=a57c8d24cc90",
-          "avif": "assets/art-103-480.avif?v=14f5ec9f1b8a",
-          "width": 480,
-          "height": 378,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-103-900.webp?v=3beb0bf0c78b",
-          "avif": "assets/art-103-900.avif?v=35330670a065",
-          "width": 900,
-          "height": 709,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-103-1600.webp?v=09d9a6cda5c6",
-          "avif": "assets/art-103-1600.avif?v=dd1988033f03",
-          "width": 1600,
-          "height": 1260,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-103-2400.webp?v=29f79d87ccee",
-          "avif": "assets/art-103-2400.avif?v=b133b46b6a15",
-          "width": 2000,
-          "height": 1575,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-104",
-      "title": "Red pepper study",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1031,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-104-480.webp?v=d8d8d74fbe7f",
-          "avif": "assets/art-104-480.avif?v=dffd732a5ba7",
-          "width": 480,
-          "height": 369,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-104-900.webp?v=6aceb9f58935",
-          "avif": "assets/art-104-900.avif?v=2d0a5f68bd19",
-          "width": 900,
-          "height": 693,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-104-1600.webp?v=966a5405058c",
-          "avif": "assets/art-104-1600.avif?v=eaf2923db9c2",
-          "width": 1600,
-          "height": 1231,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-104-2400.webp?v=378cfecfffd1",
-          "avif": "assets/art-104-2400.avif?v=5350a3701258",
-          "width": 2000,
-          "height": 1539,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-106",
-      "title": "Tomatoes study",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1033,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-106-480.webp?v=798ae07e4343",
-          "avif": "assets/art-106-480.avif?v=523da0a460da",
-          "width": 480,
-          "height": 329,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-106-900.webp?v=0814e519f29a",
-          "avif": "assets/art-106-900.avif?v=3237bd5a6367",
-          "width": 900,
-          "height": 616,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-106-1600.webp?v=8f391de8206d",
-          "avif": "assets/art-106-1600.avif?v=a504e19e09b8",
-          "width": 1600,
-          "height": 1095,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-106-2400.webp?v=62e922f9f41d",
-          "avif": "assets/art-106-2400.avif?v=a69614fb153f",
-          "width": 2000,
-          "height": 1369,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-107",
-      "title": "Wax and color",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Mixed media",
-      "mediaCategory": "Mixed media",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1034,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-107-480.webp?v=36f98185e200",
-          "avif": "assets/art-107-480.avif?v=53c6eb3c412d",
-          "width": 365,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-107-900.webp?v=a8e50e562e67",
-          "avif": "assets/art-107-900.avif?v=1692537bbe57",
-          "width": 684,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-107-1600.webp?v=22f40b2e673b",
-          "avif": "assets/art-107-1600.avif?v=74c215d17ad5",
-          "width": 1215,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-107-2400.webp?v=119f26b06f6f",
-          "avif": "assets/art-107-2400.avif?v=550784513794",
-          "width": 1519,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-108",
       "title": "Pink flower in a glass vase",
       "description": "",
@@ -7301,6 +6405,678 @@
       ]
     },
     {
+      "id": "art-084",
+      "title": "Birds and ink",
+      "description": "",
+      "theme": "Wildlife",
+      "themes": [
+        "Wildlife"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Pen and ink",
+      "mediaCategory": "Pen and ink",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1160,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-084-480.webp?v=845766c69984",
+          "avif": "assets/art-084-480.avif?v=52df3cc09658",
+          "width": 480,
+          "height": 367,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-084-900.webp?v=903d7bc7a2ef",
+          "avif": "assets/art-084-900.avif?v=6914fab4a052",
+          "width": 900,
+          "height": 689,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-084-1600.webp?v=04e9ffb81a60",
+          "avif": "assets/art-084-1600.avif?v=d8457e6351fa",
+          "width": 1600,
+          "height": 1225,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-084-2400.webp?v=0b954ffb2704",
+          "avif": "assets/art-084-2400.avif?v=ceef5810e40f",
+          "width": 2000,
+          "height": 1531,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-086",
+      "title": "Figs",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Graphite",
+      "mediaCategory": "Graphite",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1180,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-086-480.webp?v=5da681a97acf",
+          "avif": "assets/art-086-480.avif?v=57e2f9698308",
+          "width": 283,
+          "height": 480,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-086-900.webp?v=60e60c2d8efd",
+          "avif": "assets/art-086-900.avif?v=bf0a03dc071c",
+          "width": 530,
+          "height": 900,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-086-1600.webp?v=f07d2a96822b",
+          "avif": "assets/art-086-1600.avif?v=8e654b9ebd01",
+          "width": 942,
+          "height": 1600,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-086-2400.webp?v=38773ca9d7f9",
+          "avif": "assets/art-086-2400.avif?v=f1d35bbad916",
+          "width": 1178,
+          "height": 2000,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-089",
+      "title": "Graphite portrait",
+      "description": "",
+      "theme": "Figures",
+      "themes": [
+        "Figures"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Graphite",
+      "mediaCategory": "Graphite",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1210,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-089-480.webp?v=14dd1c361b59",
+          "avif": "assets/art-089-480.avif?v=fe49cdce80d5",
+          "width": 385,
+          "height": 480,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-089-900.webp?v=0989069483ab",
+          "avif": "assets/art-089-900.avif?v=19863b552965",
+          "width": 722,
+          "height": 900,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-089-1600.webp?v=94e8c9ae64a8",
+          "avif": "assets/art-089-1600.avif?v=8e6b9de0e510",
+          "width": 1284,
+          "height": 1600,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-089-2400.webp?v=62afb70feeac",
+          "avif": "assets/art-089-2400.avif?v=ae3c5ed0c348",
+          "width": 1605,
+          "height": 2000,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-091",
+      "title": "Angels",
+      "description": "",
+      "theme": "Figures",
+      "themes": [
+        "Figures"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1230,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-091-480.webp?v=512ae1b9c569",
+          "avif": "assets/art-091-480.avif?v=f8fbd40a64ff",
+          "width": 471,
+          "height": 480,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-091-900.webp?v=5eb923f1631b",
+          "avif": "assets/art-091-900.avif?v=5ee17b3179d4",
+          "width": 883,
+          "height": 900,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-091-1600.webp?v=2cc29a58cb5b",
+          "avif": "assets/art-091-1600.avif?v=10f94977c079",
+          "width": 1570,
+          "height": 1600,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-091-2400.webp?v=889ef179654e",
+          "avif": "assets/art-091-2400.avif?v=02bbb136e75e",
+          "width": 1963,
+          "height": 2000,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-092",
+      "title": "Apples",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1240,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-092-480.webp?v=18250e99da48",
+          "avif": "assets/art-092-480.avif?v=3cf47378671b",
+          "width": 480,
+          "height": 473,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-092-900.webp?v=e3f0764c3ce9",
+          "avif": "assets/art-092-900.avif?v=aff2708bb60b",
+          "width": 900,
+          "height": 887,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-092-1600.webp?v=06f6bd7a504a",
+          "avif": "assets/art-092-1600.avif?v=7d8c35a73ab2",
+          "width": 1600,
+          "height": 1578,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-092-2400.webp?v=aa5af075e2ab",
+          "avif": "assets/art-092-2400.avif?v=5ada5d2314cd",
+          "width": 2000,
+          "height": 1972,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-093",
+      "title": "Asparagus study",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1250,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-093-480.webp?v=4dcbe692d1d6",
+          "avif": "assets/art-093-480.avif?v=c7d395c332e1",
+          "width": 455,
+          "height": 480,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-093-900.webp?v=3472227567bc",
+          "avif": "assets/art-093-900.avif?v=06981d856843",
+          "width": 853,
+          "height": 900,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-093-1600.webp?v=bbef059c9a4c",
+          "avif": "assets/art-093-1600.avif?v=6532b2ca4866",
+          "width": 1517,
+          "height": 1600,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-093-2400.webp?v=902769fefc0c",
+          "avif": "assets/art-093-2400.avif?v=2939668531b9",
+          "width": 1896,
+          "height": 2000,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-094",
+      "title": "Bubble kiss",
+      "description": "",
+      "theme": "Figures",
+      "themes": [
+        "Figures"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1260,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-094-480.webp?v=b2a9d035cfaf",
+          "avif": "assets/art-094-480.avif?v=2f6fb3e7dcdb",
+          "width": 480,
+          "height": 351,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-094-900.webp?v=97e85b02affb",
+          "avif": "assets/art-094-900.avif?v=c389161e8ac8",
+          "width": 900,
+          "height": 659,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-094-1600.webp?v=4cce4856863e",
+          "avif": "assets/art-094-1600.avif?v=8d7aaeaf4a0f",
+          "width": 1600,
+          "height": 1171,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-094-2400.webp?v=ca81255cf5c0",
+          "avif": "assets/art-094-2400.avif?v=021adda9a4e7",
+          "width": 2000,
+          "height": 1464,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-096",
+      "title": "Antlered deer",
+      "description": "",
+      "theme": "Wildlife",
+      "themes": [
+        "Wildlife"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Pen and ink",
+      "mediaCategory": "Pen and ink",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1280,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-096-480.webp?v=47b4feb7f610",
+          "avif": "assets/art-096-480.avif?v=cc529257497a",
+          "width": 379,
+          "height": 480,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-096-900.webp?v=5a681f2d9f5d",
+          "avif": "assets/art-096-900.avif?v=550eb7087049",
+          "width": 711,
+          "height": 900,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-096-1600.webp?v=8825f7945296",
+          "avif": "assets/art-096-1600.avif?v=20245850f622",
+          "width": 1265,
+          "height": 1600,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-096-2400.webp?v=26a5a08ff8a0",
+          "avif": "assets/art-096-2400.avif?v=6bdb3f2e8161",
+          "width": 1897,
+          "height": 2400,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-097",
+      "title": "Eggplant study",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1290,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-097-480.webp?v=7085fb476fd7",
+          "avif": "assets/art-097-480.avif?v=b36b78bb8e19",
+          "width": 480,
+          "height": 429,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-097-900.webp?v=9415fe83b5d9",
+          "avif": "assets/art-097-900.avif?v=2f40dd5c3027",
+          "width": 900,
+          "height": 804,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-097-1600.webp?v=a26fc06cddf2",
+          "avif": "assets/art-097-1600.avif?v=1c12c1bb7c2d",
+          "width": 1600,
+          "height": 1429,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-097-2400.webp?v=9df53fbbe761",
+          "avif": "assets/art-097-2400.avif?v=86c84e22e47a",
+          "width": 2000,
+          "height": 1786,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-098",
+      "title": "Gold peaches",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1300,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-098-480.webp?v=4fde0a01b162",
+          "avif": "assets/art-098-480.avif?v=db4789eb59a2",
+          "width": 480,
+          "height": 460,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-098-900.webp?v=e414b185cebb",
+          "avif": "assets/art-098-900.avif?v=271b2ee10636",
+          "width": 900,
+          "height": 862,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-098-1600.webp?v=3d264d1dec51",
+          "avif": "assets/art-098-1600.avif?v=00bf4fe8a077",
+          "width": 1600,
+          "height": 1533,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-098-2400.webp?v=b34edf3a9133",
+          "avif": "assets/art-098-2400.avif?v=c9eb9a5ec313",
+          "width": 2400,
+          "height": 2299,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-100",
+      "title": "Onion study",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1320,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-100-480.webp?v=c965b3284e18",
+          "avif": "assets/art-100-480.avif?v=e0b312f95df9",
+          "width": 480,
+          "height": 414,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-100-900.webp?v=bdf94eacfe2e",
+          "avif": "assets/art-100-900.avif?v=bf75b11df1e9",
+          "width": 900,
+          "height": 776,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-100-1600.webp?v=75d1f5ba4f21",
+          "avif": "assets/art-100-1600.avif?v=ed7cfabebb8f",
+          "width": 1600,
+          "height": 1380,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-100-2400.webp?v=6285c0f838f5",
+          "avif": "assets/art-100-2400.avif?v=ccaa6830ea99",
+          "width": 2000,
+          "height": 1725,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-107",
+      "title": "Wax and color",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1360,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-107-480.webp?v=36f98185e200",
+          "avif": "assets/art-107-480.avif?v=53c6eb3c412d",
+          "width": 365,
+          "height": 480,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-107-900.webp?v=a8e50e562e67",
+          "avif": "assets/art-107-900.avif?v=1692537bbe57",
+          "width": 684,
+          "height": 900,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-107-1600.webp?v=22f40b2e673b",
+          "avif": "assets/art-107-1600.avif?v=74c215d17ad5",
+          "width": 1215,
+          "height": 1600,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-107-2400.webp?v=119f26b06f6f",
+          "avif": "assets/art-107-2400.avif?v=550784513794",
+          "width": 1519,
+          "height": 2000,
+          "edge": 2400
+        }
+      ]
+    },
+    {
       "id": "art-150",
       "title": "Stone bridge over a stream",
       "description": "",
@@ -7321,7 +7097,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1077,
+      "order": 1370,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -7377,7 +7153,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1078,
+      "order": 1380,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -7413,230 +7189,6 @@
       ]
     },
     {
-      "id": "art-152",
-      "title": "Patterned figure study",
-      "description": "",
-      "theme": "Figures",
-      "themes": [
-        "Figures"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1079,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-152-480.webp?v=4bbd827b446e",
-          "avif": "assets/art-152-480.avif?v=135e825c430a",
-          "width": 381,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-152-900.webp?v=3d9de09a5f5f",
-          "avif": "assets/art-152-900.avif?v=fce1577d227b",
-          "width": 715,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-152-1600.webp?v=baeda740a7aa",
-          "avif": "assets/art-152-1600.avif?v=0512f15e31c0",
-          "width": 1271,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-152-2400.webp?v=0f6a4962e627",
-          "avif": "assets/art-152-2400.avif?v=396c3ea392b7",
-          "width": 1589,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-153",
-      "title": "Cherries on a branch",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1080,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-153-480.webp?v=bbc1876a8efb",
-          "avif": "assets/art-153-480.avif?v=0ede5d20b376",
-          "width": 480,
-          "height": 440,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-153-900.webp?v=978db183bbb0",
-          "avif": "assets/art-153-900.avif?v=353c2108122f",
-          "width": 900,
-          "height": 824,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-153-1600.webp?v=13abb5490db3",
-          "avif": "assets/art-153-1600.avif?v=5691b0d77482",
-          "width": 1600,
-          "height": 1466,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-153-2400.webp?v=799977977413",
-          "avif": "assets/art-153-2400.avif?v=709626a1406a",
-          "width": 2000,
-          "height": 1832,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-154",
-      "title": "Watermelon slice",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1081,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-154-480.webp?v=f407fb6abf64",
-          "avif": "assets/art-154-480.avif?v=6d9fded9e99d",
-          "width": 480,
-          "height": 408,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-154-900.webp?v=0c2f2191e6b9",
-          "avif": "assets/art-154-900.avif?v=63d7744aafdc",
-          "width": 900,
-          "height": 764,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-154-1600.webp?v=d9358860bfe7",
-          "avif": "assets/art-154-1600.avif?v=9576e74f2096",
-          "width": 1600,
-          "height": 1358,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-154-2400.webp?v=1f15a5e25fe5",
-          "avif": "assets/art-154-2400.avif?v=0e1722554c9f",
-          "width": 2000,
-          "height": 1698,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-155",
-      "title": "Sliced citrus",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1082,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-155-480.webp?v=7c438379c358",
-          "avif": "assets/art-155-480.avif?v=e46a2ea910dd",
-          "width": 480,
-          "height": 397,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-155-900.webp?v=b9754fa432d8",
-          "avif": "assets/art-155-900.avif?v=236bc8331f42",
-          "width": 900,
-          "height": 744,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-155-1600.webp?v=1db440d0cb5b",
-          "avif": "assets/art-155-1600.avif?v=d654c4f4ec4a",
-          "width": 1600,
-          "height": 1323,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-155-2400.webp?v=86f42e45258d",
-          "avif": "assets/art-155-2400.avif?v=56fdee57ba8d",
-          "width": 2000,
-          "height": 1654,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-156",
       "title": "Mountain road and stone viaduct",
       "description": "",
@@ -7657,7 +7209,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1083,
+      "order": 1390,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -7713,7 +7265,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1084,
+      "order": 1400,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -7749,398 +7301,6 @@
       ]
     },
     {
-      "id": "art-158",
-      "title": "Whole and halved strawberries",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1085,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-158-480.webp?v=b7ead3dde6cd",
-          "avif": "assets/art-158-480.avif?v=13291e27e985",
-          "width": 480,
-          "height": 304,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-158-900.webp?v=1b550c6daeeb",
-          "avif": "assets/art-158-900.avif?v=95e37318a517",
-          "width": 900,
-          "height": 570,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-158-1600.webp?v=b4949f88b42d",
-          "avif": "assets/art-158-1600.avif?v=c8c25d98d865",
-          "width": 1600,
-          "height": 1014,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-158-2400.webp?v=3f9b8ef66c9f",
-          "avif": "assets/art-158-2400.avif?v=7956be53c471",
-          "width": 2000,
-          "height": 1267,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-162",
-      "title": "Chick",
-      "description": "",
-      "theme": "Wildlife",
-      "themes": [
-        "Wildlife"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1089,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-162-480.webp?v=5bb0e7803b3c",
-          "avif": "assets/art-162-480.avif?v=925ce3c16156",
-          "width": 480,
-          "height": 463,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-162-900.webp?v=509d6f41fe97",
-          "avif": "assets/art-162-900.avif?v=89dcd6647fa8",
-          "width": 900,
-          "height": 869,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-162-1600.webp?v=d7e928f1e156",
-          "avif": "assets/art-162-1600.avif?v=b65752f96f47",
-          "width": 1600,
-          "height": 1545,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-162-2400.webp?v=2dfdf0939ee3",
-          "avif": "assets/art-162-2400.avif?v=3a12aebf704e",
-          "width": 2000,
-          "height": 1931,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-163",
-      "title": "Decorated vessel",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1090,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-163-480.webp?v=5fb65be16a82",
-          "avif": "assets/art-163-480.avif?v=e915c08e2e33",
-          "width": 480,
-          "height": 318,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-163-900.webp?v=dd5c85d36b67",
-          "avif": "assets/art-163-900.avif?v=cb06207f3bd0",
-          "width": 900,
-          "height": 597,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-163-1600.webp?v=96d2964f5a2e",
-          "avif": "assets/art-163-1600.avif?v=c200612d15ef",
-          "width": 1600,
-          "height": 1061,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-163-2400.webp?v=5cb91ff519fd",
-          "avif": "assets/art-163-2400.avif?v=4293f58faeab",
-          "width": 2000,
-          "height": 1326,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-165",
-      "title": "Strawberries",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1092,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-165-480.webp?v=fd2dfb4d58a7",
-          "avif": "assets/art-165-480.avif?v=10c37093615b",
-          "width": 480,
-          "height": 307,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-165-900.webp?v=145050fc3e07",
-          "avif": "assets/art-165-900.avif?v=2f4160e194f8",
-          "width": 900,
-          "height": 576,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-165-1600.webp?v=7356aa09c90f",
-          "avif": "assets/art-165-1600.avif?v=f6166f38afd6",
-          "width": 1600,
-          "height": 1025,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-165-2400.webp?v=8798074546aa",
-          "avif": "assets/art-165-2400.avif?v=544ed555b3a4",
-          "width": 2000,
-          "height": 1281,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-169",
-      "title": "Lemon slices",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1096,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-169-480.webp?v=6ff91a221ca3",
-          "avif": "assets/art-169-480.avif?v=005340b224eb",
-          "width": 480,
-          "height": 304,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-169-900.webp?v=a42d7becf566",
-          "avif": "assets/art-169-900.avif?v=d03412e0f26e",
-          "width": 900,
-          "height": 570,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-169-1600.webp?v=de244395a04e",
-          "avif": "assets/art-169-1600.avif?v=bdb769d06189",
-          "width": 1600,
-          "height": 1013,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-169-2400.webp?v=dcb54982fb42",
-          "avif": "assets/art-169-2400.avif?v=995fce777e15",
-          "width": 2000,
-          "height": 1266,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-170",
-      "title": "Mountain peak",
-      "description": "",
-      "theme": "Landscapes",
-      "themes": [
-        "Landscapes"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1097,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-170-480.webp?v=a79f3cc45828",
-          "avif": "assets/art-170-480.avif?v=91431eeeaffc",
-          "width": 480,
-          "height": 309,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-170-900.webp?v=0b5ad72c39ff",
-          "avif": "assets/art-170-900.avif?v=17d206c5f42b",
-          "width": 900,
-          "height": 580,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-170-1600.webp?v=72415808c3b4",
-          "avif": "assets/art-170-1600.avif?v=e74659c89f95",
-          "width": 1600,
-          "height": 1030,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-170-2400.webp?v=78f10f6d6213",
-          "avif": "assets/art-170-2400.avif?v=107ba36cdf43",
-          "width": 2000,
-          "height": 1288,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-171",
-      "title": "Vegetable still life",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1098,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-171-480.webp?v=5d4e55929641",
-          "avif": "assets/art-171-480.avif?v=54eecda4da13",
-          "width": 480,
-          "height": 380,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-171-900.webp?v=27f9aa727ae8",
-          "avif": "assets/art-171-900.avif?v=90e49d01df99",
-          "width": 900,
-          "height": 712,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-171-1600.webp?v=378b5e1f68ec",
-          "avif": "assets/art-171-1600.avif?v=66a22c82c663",
-          "width": 1600,
-          "height": 1266,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-171-2400.webp?v=1fa34d55dc26",
-          "avif": "assets/art-171-2400.avif?v=a44e7896d44d",
-          "width": 2000,
-          "height": 1583,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-172",
       "title": "Poppies",
       "description": "",
@@ -8161,7 +7321,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1099,
+      "order": 1550,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8197,62 +7357,6 @@
       ]
     },
     {
-      "id": "art-173",
-      "title": "Sailboat",
-      "description": "",
-      "theme": "Landscapes",
-      "themes": [
-        "Landscapes"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1100,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-173-480.webp?v=d5b537f7c144",
-          "avif": "assets/art-173-480.avif?v=eafee920b0c0",
-          "width": 480,
-          "height": 327,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-173-900.webp?v=ce7e05bf11b1",
-          "avif": "assets/art-173-900.avif?v=8ce2c2d76374",
-          "width": 900,
-          "height": 612,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-173-1600.webp?v=e1d263121643",
-          "avif": "assets/art-173-1600.avif?v=613e511ab05e",
-          "width": 1600,
-          "height": 1089,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-173-2400.webp?v=9cdaf483c354",
-          "avif": "assets/art-173-2400.avif?v=8795f7476263",
-          "width": 2000,
-          "height": 1361,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-174",
       "title": "Portrait behind a curtain",
       "description": "",
@@ -8273,7 +7377,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1101,
+      "order": 1570,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8309,62 +7413,6 @@
       ]
     },
     {
-      "id": "art-175",
-      "title": "Squash",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1102,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-175-480.webp?v=5ba7181746ea",
-          "avif": "assets/art-175-480.avif?v=4f20aa28de10",
-          "width": 480,
-          "height": 333,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-175-900.webp?v=50acb500be26",
-          "avif": "assets/art-175-900.avif?v=03b4cc11170d",
-          "width": 900,
-          "height": 625,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-175-1600.webp?v=acf642128749",
-          "avif": "assets/art-175-1600.avif?v=fe1d7eedb885",
-          "width": 1600,
-          "height": 1110,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-175-2400.webp?v=a42c4e31e41c",
-          "avif": "assets/art-175-2400.avif?v=168cfd662f63",
-          "width": 2000,
-          "height": 1388,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-177",
       "title": "Eyes",
       "description": "",
@@ -8385,7 +7433,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1104,
+      "order": 1600,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8422,7 +7470,7 @@
     },
     {
       "id": "art-178",
-      "title": "Carrots",
+      "title": "Zucchini",
       "description": "",
       "theme": "Still Life",
       "themes": [
@@ -8441,7 +7489,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1105,
+      "order": 1610,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8477,118 +7525,6 @@
       ]
     },
     {
-      "id": "art-179",
-      "title": "Small fruits",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1106,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-179-480.webp?v=f6fe9d073063",
-          "avif": "assets/art-179-480.avif?v=9cc51d508f07",
-          "width": 480,
-          "height": 353,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-179-900.webp?v=1b047adb7daf",
-          "avif": "assets/art-179-900.avif?v=4ae34f320068",
-          "width": 900,
-          "height": 662,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-179-1600.webp?v=691d710d43ee",
-          "avif": "assets/art-179-1600.avif?v=36209d82a7b8",
-          "width": 1600,
-          "height": 1178,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-179-2400.webp?v=ec19c58342d9",
-          "avif": "assets/art-179-2400.avif?v=8546bedfd238",
-          "width": 2000,
-          "height": 1472,
-          "edge": 2400
-        }
-      ]
-    },
-    {
-      "id": "art-180",
-      "title": "Rhubarb stalks",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1107,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-180-480.webp?v=3ec18cf06090",
-          "avif": "assets/art-180-480.avif?v=bf2b6bec98ea",
-          "width": 480,
-          "height": 353,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-180-900.webp?v=1d8db6b7d758",
-          "avif": "assets/art-180-900.avif?v=81d72fa79f8b",
-          "width": 900,
-          "height": 662,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-180-1600.webp?v=61c41d9537b9",
-          "avif": "assets/art-180-1600.avif?v=3216f7814ff8",
-          "width": 1600,
-          "height": 1178,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-180-2400.webp?v=ef93e7c14340",
-          "avif": "assets/art-180-2400.avif?v=f11637a7d54a",
-          "width": 2000,
-          "height": 1472,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-181",
       "title": "Botanical studies",
       "description": "",
@@ -8609,7 +7545,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1108,
+      "order": 1640,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8645,62 +7581,6 @@
       ]
     },
     {
-      "id": "art-182",
-      "title": "Bell pepper",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1109,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-182-480.webp?v=b78073e3d328",
-          "avif": "assets/art-182-480.avif?v=341d691083f8",
-          "width": 417,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-182-900.webp?v=3f2fb3972315",
-          "avif": "assets/art-182-900.avif?v=34eecee51d9e",
-          "width": 783,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-182-1600.webp?v=2aea24eb3f46",
-          "avif": "assets/art-182-1600.avif?v=8a4590cd0d55",
-          "width": 1391,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-182-2400.webp?v=f511a8269330",
-          "avif": "assets/art-182-2400.avif?v=d0c429cb038a",
-          "width": 1739,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-183",
       "title": "Fruit still life",
       "description": "",
@@ -8721,7 +7601,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1110,
+      "order": 1660,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8777,7 +7657,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1111,
+      "order": 1670,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8833,7 +7713,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1112,
+      "order": 1680,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8889,7 +7769,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1113,
+      "order": 1690,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8945,7 +7825,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1114,
+      "order": 1700,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -8981,62 +7861,6 @@
       ]
     },
     {
-      "id": "art-188",
-      "title": "Avocado",
-      "description": "",
-      "theme": "Still Life",
-      "themes": [
-        "Still Life"
-      ],
-      "period": "",
-      "year": "",
-      "medium": "Pen and ink",
-      "mediaCategory": "Pen and ink",
-      "surface": "",
-      "width": null,
-      "height": null,
-      "dimensionsConfirmed": false,
-      "sizeCategory": "Unclassified",
-      "price": null,
-      "currency": "USD",
-      "availability": "",
-      "purchaseUrl": "",
-      "order": 1115,
-      "seriesId": "",
-      "seriesTitle": "",
-      "seriesPosition": 0,
-      "images": [
-        {
-          "src": "assets/art-188-480.webp?v=d4008c949219",
-          "avif": "assets/art-188-480.avif?v=3c5d1459b203",
-          "width": 408,
-          "height": 480,
-          "edge": 480
-        },
-        {
-          "src": "assets/art-188-900.webp?v=d6ed394c0c48",
-          "avif": "assets/art-188-900.avif?v=ebe76695127c",
-          "width": 764,
-          "height": 900,
-          "edge": 900
-        },
-        {
-          "src": "assets/art-188-1600.webp?v=156df76d8290",
-          "avif": "assets/art-188-1600.avif?v=7b527f3acb86",
-          "width": 1358,
-          "height": 1600,
-          "edge": 1600
-        },
-        {
-          "src": "assets/art-188-2400.webp?v=061363302999",
-          "avif": "assets/art-188-2400.avif?v=0929bf790c8f",
-          "width": 1698,
-          "height": 2000,
-          "edge": 2400
-        }
-      ]
-    },
-    {
       "id": "art-189",
       "title": "Cupcake",
       "description": "",
@@ -9057,7 +7881,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1116,
+      "order": 1720,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9113,7 +7937,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1117,
+      "order": 1730,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9169,7 +7993,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1118,
+      "order": 1740,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9225,7 +8049,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1119,
+      "order": 1750,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9281,7 +8105,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1120,
+      "order": 1760,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9337,7 +8161,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1122,
+      "order": 1780,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9393,7 +8217,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1125,
+      "order": 1810,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9449,7 +8273,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1127,
+      "order": 1830,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9505,7 +8329,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1129,
+      "order": 1850,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9561,7 +8385,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1130,
+      "order": 1860,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9617,7 +8441,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1131,
+      "order": 1870,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9673,7 +8497,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1132,
+      "order": 1880,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9729,7 +8553,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1133,
+      "order": 1890,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9785,7 +8609,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1134,
+      "order": 1900,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9841,7 +8665,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1137,
+      "order": 1930,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9897,7 +8721,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1139,
+      "order": 1950,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9953,7 +8777,7 @@
       "currency": "USD",
       "availability": "",
       "purchaseUrl": "",
-      "order": 1140,
+      "order": 1960,
       "seriesId": "",
       "seriesTitle": "",
       "seriesPosition": 0,
@@ -9984,6 +8808,230 @@
           "avif": "assets/art-213-2400.avif?v=1a25d1f13370",
           "width": 2400,
           "height": 1770,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-103",
+      "title": "Pears study",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1970,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-103-480.webp?v=a57c8d24cc90",
+          "avif": "assets/art-103-480.avif?v=14f5ec9f1b8a",
+          "width": 480,
+          "height": 378,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-103-900.webp?v=3beb0bf0c78b",
+          "avif": "assets/art-103-900.avif?v=35330670a065",
+          "width": 900,
+          "height": 709,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-103-1600.webp?v=09d9a6cda5c6",
+          "avif": "assets/art-103-1600.avif?v=dd1988033f03",
+          "width": 1600,
+          "height": 1260,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-103-2400.webp?v=29f79d87ccee",
+          "avif": "assets/art-103-2400.avif?v=b133b46b6a15",
+          "width": 2000,
+          "height": 1575,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-104",
+      "title": "Red pepper study",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1980,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-104-480.webp?v=d8d8d74fbe7f",
+          "avif": "assets/art-104-480.avif?v=dffd732a5ba7",
+          "width": 480,
+          "height": 369,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-104-900.webp?v=6aceb9f58935",
+          "avif": "assets/art-104-900.avif?v=2d0a5f68bd19",
+          "width": 900,
+          "height": 693,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-104-1600.webp?v=966a5405058c",
+          "avif": "assets/art-104-1600.avif?v=eaf2923db9c2",
+          "width": 1600,
+          "height": 1231,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-104-2400.webp?v=378cfecfffd1",
+          "avif": "assets/art-104-2400.avif?v=5350a3701258",
+          "width": 2000,
+          "height": 1539,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-106",
+      "title": "Tomatoes study",
+      "description": "",
+      "theme": "Still Life",
+      "themes": [
+        "Still Life"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Mixed media",
+      "mediaCategory": "Mixed media",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 1990,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-106-480.webp?v=798ae07e4343",
+          "avif": "assets/art-106-480.avif?v=523da0a460da",
+          "width": 480,
+          "height": 329,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-106-900.webp?v=0814e519f29a",
+          "avif": "assets/art-106-900.avif?v=3237bd5a6367",
+          "width": 900,
+          "height": 616,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-106-1600.webp?v=8f391de8206d",
+          "avif": "assets/art-106-1600.avif?v=a504e19e09b8",
+          "width": 1600,
+          "height": 1095,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-106-2400.webp?v=62e922f9f41d",
+          "avif": "assets/art-106-2400.avif?v=a69614fb153f",
+          "width": 2000,
+          "height": 1369,
+          "edge": 2400
+        }
+      ]
+    },
+    {
+      "id": "art-152",
+      "title": "Patterned figure study",
+      "description": "",
+      "theme": "Figures",
+      "themes": [
+        "Figures"
+      ],
+      "period": "",
+      "year": "",
+      "medium": "Pen and ink",
+      "mediaCategory": "Pen and ink",
+      "surface": "",
+      "width": null,
+      "height": null,
+      "dimensionsConfirmed": false,
+      "sizeCategory": "Unclassified",
+      "price": null,
+      "currency": "USD",
+      "availability": "",
+      "purchaseUrl": "",
+      "order": 2000,
+      "seriesId": "",
+      "seriesTitle": "",
+      "seriesPosition": 0,
+      "images": [
+        {
+          "src": "assets/art-152-480.webp?v=4bbd827b446e",
+          "avif": "assets/art-152-480.avif?v=135e825c430a",
+          "width": 381,
+          "height": 480,
+          "edge": 480
+        },
+        {
+          "src": "assets/art-152-900.webp?v=3d9de09a5f5f",
+          "avif": "assets/art-152-900.avif?v=fce1577d227b",
+          "width": 715,
+          "height": 900,
+          "edge": 900
+        },
+        {
+          "src": "assets/art-152-1600.webp?v=baeda740a7aa",
+          "avif": "assets/art-152-1600.avif?v=0512f15e31c0",
+          "width": 1271,
+          "height": 1600,
+          "edge": 1600
+        },
+        {
+          "src": "assets/art-152-2400.webp?v=0f6a4962e627",
+          "avif": "assets/art-152-2400.avif?v=396c3ea392b7",
+          "width": 1589,
+          "height": 2000,
           "edge": 2400
         }
       ]
