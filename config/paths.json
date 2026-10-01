@@ -1,0 +1,6 @@
+{
+  "library": "../images",
+  "local": ".local",
+  "site": "site",
+  "output": "dist"
+}

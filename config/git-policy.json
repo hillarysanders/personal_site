@@ -1,0 +1,4 @@
+{
+  "max_file_bytes": 1048576,
+  "allowed_large_files": ["site/images/CV_hillary_sanders.pdf"]
+}

@@ -1,0 +1,7 @@
+{
+  "host": "YOUR_SITE_HOST.nearlyfreespeech.net",
+  "user": "YOUR_SSH_USERNAME",
+  "root": "/home/public",
+  "url": "https://hillarysanders.com",
+  "known_hosts": ".local/nfs-known_hosts"
+}

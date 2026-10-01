@@ -1,0 +1,9 @@
+DirectoryIndex index.html
+AddType image/avif .avif
+AddType image/webp .webp
+
+# One current file per artwork/size. Revalidation allows replacement before a
+# catalog merge; query versions also refresh images after a published edit.
+<FilesMatch "\.(avif|webp|html|json|css|js|mjs)$">
+  Header set Cache-Control "public, max-age=0, must-revalidate"
+</FilesMatch>

@@ -1,0 +1,22 @@
+# Private authoring state and regenerable build output.
+.local/
+dist/
+node_modules/
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.db
+*.NEF
+*.nef
+*.tif
+*.tiff
+# Artwork binaries are published directly to NFS, never stored in Git.
+site/art/assets/
+*.avif
+*.webp

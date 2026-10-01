@@ -1,0 +1,17 @@
+{
+  "name": "hillary-sanders-personal-site",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22.13"},
+  "scripts": {
+    "dev": "node tools/editor/server.mjs",
+    "build": "node tools/build.mjs",
+    "prepare:publication": "node tools/publication.mjs prepare",
+    "publication:status": "node tools/publication.mjs status",
+    "publish:images": "node tools/deploy.mjs images",
+    "deploy:site": "node tools/deploy.mjs site",
+    "check": "node --test tests/*.test.mjs",
+    "check:git": "node tools/check-git.mjs",
+    "photos:export": "uv run python tools/photos/export_web_images.py"
+  }
+}

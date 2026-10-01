@@ -1,0 +1,42 @@
+name: Publish website to NFS
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: nfs-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: vars.NFS_DEPLOY_ENABLED == 'true' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: npm run check:git && npm run check && npm run build
+      - name: Configure deployment
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.NFS_SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.NFS_SSH_KNOWN_HOSTS }}
+          DEPLOY_CONFIG: ${{ secrets.NFS_DEPLOY_CONFIG }}
+        run: |
+          umask 077
+          mkdir -p ~/.ssh .local
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          printf '%s\n' "$SSH_KNOWN_HOSTS" > .local/nfs-known_hosts
+          printf '%s\n' "$DEPLOY_CONFIG" > .local/deploy.json
+      - name: Publish the latest default branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          current=$(git ls-remote --exit-code origin refs/heads/master | cut -f1)
+          if [ "$current" != "$GITHUB_SHA" ]; then
+            echo "A newer merge will publish the website."
+            exit 0
+          fi
+          npm run deploy:site

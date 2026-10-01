@@ -1,0 +1,19 @@
+[project]
+name = "art-photo-pipeline"
+version = "0.1.0"
+description = "Reproducible RAW artwork selection, rectification and exports"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.4.6",
+  "Pillow==12.3.0",
+  "rawpy==0.27.1",
+  "opencv-python-headless==5.0.0.93",
+  "tifffile==2026.3.3",
+]
+
+[project.optional-dependencies]
+notebook = ["ipython==9.17.1"]
+
+[tool.setuptools]
+py-modules = ["art_pipeline", "batch_tools", "build_catalog", "build_website_catalog", "build_review", "color_variants", "export_web_images", "finalize_collection", "image_paths", "import_editor_catalog"]
+package-dir = {"" = "tools/photos"}
