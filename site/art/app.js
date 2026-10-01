@@ -1,3 +1,4 @@
+import {mediaCategories,categoryForMedium} from "./media.mjs";
 import {picture, gallerySizes, viewerSizes} from "./images.mjs";
 import {watchPhotos} from "./photo-loading.mjs";
 import {emptyFilters, dimensionKey, dimensionLabel, matches, priceLabel, statusLabel, escapeHtml as esc, artworkSpan, masonryPositions, artworkGroups} from "./gallery.mjs?v=artwork-series";
@@ -75,7 +76,7 @@ function setLayout(value, {render = true} = {}) {
   layout = value;
   grid.dataset.layout = layout;
   document.querySelectorAll("button[data-layout]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.layout === layout)));
-  query("#layout-note").textContent = layout === "size" ? "Larger paintings get more space." : "Equal widths.";
+  query("#layout-note").textContent = layout === "size" ? "Larger paintings get more space" : "Equal widths";
   if (render) renderCollection({announce:false});
 }
 function renderCollection({announce = true} = {}) {
@@ -101,6 +102,11 @@ function renderCollection({announce = true} = {}) {
   updateUrl();
 }
 function setFilters(patch) {
+  // Preserve links created before medium descriptions became broad filter categories.
+  if(Object.hasOwn(patch,"medium") && patch.medium!=="all" && !mediaCategories.includes(patch.medium)){
+    const category=categoryForMedium(patch.medium);
+    if(category)patch={...patch,medium:category};
+  }
   if(Object.hasOwn(patch,"theme"))patch={...patch,theme:site.category_aliases[patch.theme]||patch.theme};
   for (const [key, value] of Object.entries(patch)) {
     if (!(key in state) || typeof value !== "string") throw new Error("Invalid filter: " + key);
@@ -169,11 +175,11 @@ function stepArtwork(delta) {
 }
 function setupControls() {
   const themes = [...new Set(artworks.flatMap(art => art.themes).filter(Boolean))];
-  query(".theme-tabs").innerHTML = [["all", "All works"], ...themes.map(theme => [theme, theme])].map(([value, label]) => '<button data-theme="' + esc(value) + '" aria-pressed="false">' + esc(label) + '</button>').join("");
+  query(".theme-tabs").innerHTML = [["all", "All Work"], ...themes.map(theme => [theme, theme])].map(([value, label]) => '<button data-theme="' + esc(value) + '" aria-pressed="false">' + esc(label) + '</button>').join("");
   const unique = key => [...new Set(artworks.map(art => art[key]).filter(Boolean))].sort().map(value => [value, value]);
   const sizes = ["Small", "Medium", "Large"].filter(value => artworks.some(art => art.sizeCategory === value)).map(value => [value, value + " works"]);
   const dimensions = [...new Map(artworks.filter(art => dimensionKey(art)).sort((first, second) => first.width - second.width || first.height - second.height).map(art => [dimensionKey(art), [dimensionKey(art), art.width + " × " + art.height + " in"]])).values()];
-  query("#filter-controls").innerHTML = '<div class="filter-bar"><div class="selects">' + select("medium", "Media", unique("medium")) + select("size", "Sizes", sizes) + select("dimensions", "Dimensions", dimensions) + select("availability", "Availability", [["available","Available"],["private","Private collection"],["sold","Sold"]]) + '<span' + (unique("period").length ? "" : " hidden") + '>' + select("period", "Periods", unique("period")) + '</span></div><label class="search"><span class="visually-hidden">Search the collection</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input type="search" data-filter="search" placeholder="Find a work…" aria-label="Search the collection"></label><button id="reset-filters" class="reset-filters" data-reset hidden>Clear filters</button></div>';
+  query("#filter-controls").innerHTML = '<div class="filter-bar"><div class="selects">' + select("medium", "Media", mediaCategories.map(category => [category, category])) + select("size", "Sizes", sizes) + select("dimensions", "Dimensions", dimensions) + select("availability", "Availability", [["available","Available"],["private","Private collection"],["sold","Sold"]]) + '<span' + (unique("period").length ? "" : " hidden") + '>' + select("period", "Periods", unique("period")) + '</span></div><label class="search"><span class="visually-hidden">Search the collection</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input type="search" data-filter="search" placeholder="Find a work…" aria-label="Search the collection"></label><button id="reset-filters" class="reset-filters" data-reset hidden>Clear filters</button></div>';
   query("#filter-controls").addEventListener("change", event => {
     if (event.target.dataset.filter) setFilters({[event.target.dataset.filter]:event.target.value});
   });

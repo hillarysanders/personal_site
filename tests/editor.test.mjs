@@ -86,6 +86,23 @@ test("validation rejects incomplete, invalid and unsafe details",()=>{
   }finally{db.close();}
 });
 
+test("media category upgrades preserve details and explicit owner overrides",()=>{
+  const db=openCatalog(":memory:"),inputs=fixture();
+  inputs.seed.artworks[0].medium="Oil on plywood";
+  inputs.seed.artworks[0].themes=["Still lifes"];
+  try {
+    const original=artwork(db,inputs,"art-013");
+    assert.equal(original.mediaCategory,"Oil paintings");
+    assert.deepEqual(original.themes,["Still Life"]);
+    assert.throws(()=>saveArtwork(db,original.id,{revision:0,values:{...values(original),mediaCategory:"Plywood"}},inputs),/Invalid media category/);
+    const saved=saveArtwork(db,original.id,{revision:0,values:{...values(original),mediaCategory:"Mixed media"}},inputs);
+    assert.equal(saved.medium,"Oil on plywood");
+    assert.equal(artwork(db,inputs,original.id).mediaCategory,"Mixed media");
+    saveArtwork(db,original.id,{revision:saved.revision,values:{...values(saved),mediaCategory:""}},inputs);
+    assert.equal(artwork(db,inputs,original.id).mediaCategory,"");
+  }finally{db.close();}
+});
+
 test("loopback routes provide local drafts and reject private paths/cross-origin writes",async()=>{
   const db=openCatalog(":memory:"),inputs=fixture();let prepared=0;
   const handle=createHandler(db,{catalogInputs:inputs,publication:{publicationStatus:async()=>({state:"unpublished",message:"Saved locally"}),preparePublication:async()=>{prepared++;return {id:"fixture",artworks:2,images:16,bytes:123};}}});

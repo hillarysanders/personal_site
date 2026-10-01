@@ -11,3 +11,9 @@ Dated `Photo review (...)` lines in private notes appear on collection cards and
 Only the public `site/` tree, editor assets, and explicit local photo routes are served. Saves require a same-origin request. No account, hosted database, image processor, or cloud authentication is involved.
 
 Run `node --test tests/editor.test.mjs` for synthetic catalog and route checks; these need no private database or photo library.
+
+`mediaCategory` holds the broad gallery filter separately from `medium` and `surface`.
+The shared rules in `site/art/media.mjs` classify older records from explicit medium
+text; unknown paintings remain unassigned. The editor can override the category,
+and a later medium edit suggests a new category when its material is recognized.
+Publication stores the resolved category without changing the detailed medium.

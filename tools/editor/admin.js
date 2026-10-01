@@ -1,9 +1,16 @@
+import {mediaCategories,categoryForMedium} from "/art/media.mjs";
 import {escapeHtml as esc,dimensionLabel,sortArtworks} from "/art/gallery.mjs";
 const query=selector=>document.querySelector(selector);
-const fields=["title","description","themes","period","year","medium","surface","width","height","dimensionsConfirmed","sizeCategory","price","currency","availability","published","photoStatus","order","purchaseUrl","notes"];
+const fields=["title","description","themes","period","year","medium","mediaCategory","surface","width","height","dimensionsConfirmed","sizeCategory","price","currency","availability","published","photoStatus","order","purchaseUrl","notes"];
 import {photoLabels,photoReviewNote,detailChecks,detailIssues,matchesReview} from "./review.mjs";
-query("#review-filter").innerHTML='<option value="all">All works</option><option value="attention">Anything needing review</option><option value="clear">Nothing flagged</option><optgroup label="Photos"><option value="curated">Photo review recorded</option><option value="photo">Photo needs attention</option>'+Object.entries(photoLabels).map(([value,label])=>'<option value="'+value+'">'+label+'</option>').join('')+'<option value="unfinished">Reference photos</option></optgroup><optgroup label="Artwork details"><option value="details">Artwork details need review</option>'+detailChecks.map(check=>'<option value="'+check.id+'">'+check.label+'</option>').join('')+'</optgroup>';
+query("#review-filter").innerHTML='<option value="all">All Work</option><option value="attention">Anything needing review</option><option value="clear">Nothing flagged</option><optgroup label="Photos"><option value="curated">Photo review recorded</option><option value="photo">Photo needs attention</option>'+Object.entries(photoLabels).map(([value,label])=>'<option value="'+value+'">'+label+'</option>').join('')+'<option value="unfinished">Reference photos</option></optgroup><optgroup label="Artwork details"><option value="details">Artwork details need review</option>'+detailChecks.map(check=>'<option value="'+check.id+'">'+check.label+'</option>').join('')+'</optgroup>';
 const form=query("#edit-form"),dialog=query("#editor");
+form.elements.mediaCategory.innerHTML='<option value="">Not assigned</option>'+mediaCategories.map(category=>'<option>'+category+'</option>').join("");
+form.elements.medium.addEventListener("change",()=>{
+  const category=categoryForMedium(form.elements.medium.value);
+  if(category)form.elements.mediaCategory.value=category;
+  updateDetailReview();
+});
 let artworks=[],visible=[],editing=null,dirty=false,busy=false;
 const selected=new Set();
 async function api(url,options={}){
@@ -61,7 +68,7 @@ query("#add-theme").addEventListener("click",()=>{
 });
 function updateDetailReview(){
   const details={...editing,themes:selectedThemes()};
-  for(const field of ["medium","surface","width","height","dimensionsConfirmed"]){
+  for(const field of ["medium","mediaCategory","surface","width","height","dimensionsConfirmed"]){
     const control=form.elements.namedItem(field);
     details[field]=control.type==="checkbox"?control.checked:["width","height"].includes(field)?(control.value===""?null:Number(control.value)):control.value;
   }

@@ -1,9 +1,10 @@
 /** The public release contract is shared by local export, CI and deployment. */
 import assert from "node:assert/strict";
 import {createHash} from "node:crypto";
+import {mediaCategories} from "../site/art/media.mjs";
 
 export const digest=bytes=>createHash("sha256").update(bytes).digest("hex");
-export const PUBLIC_FIELDS=["id","title","description","theme","themes","period","year","medium","surface","width","height","dimensionsConfirmed","sizeCategory","price","currency","availability","purchaseUrl","order","seriesId","seriesTitle","seriesPosition","images"];
+export const PUBLIC_FIELDS=["id","title","description","theme","themes","period","year","medium","mediaCategory","surface","width","height","dimensionsConfirmed","sizeCategory","price","currency","availability","purchaseUrl","order","seriesId","seriesTitle","seriesPosition","images"];
 export function validatePublication(catalog,manifest) {
   assert.deepEqual(Object.keys(catalog).sort(),["artworks","site"]);
   assert.deepEqual(Object.keys(catalog.site).sort(),["artist_name","site_title","inquiry_email","category_aliases","copyright_owner","gallery_image_max_edge","canAdmin"].sort());
@@ -22,6 +23,7 @@ export function validatePublication(catalog,manifest) {
   for(const artwork of catalog.artworks) {
     assert.match(artwork.id,/^art-\d+$/);assert(!ids.has(artwork.id));ids.add(artwork.id);
     assert.deepEqual(Object.keys(artwork).sort(),[...PUBLIC_FIELDS].sort(),"Unexpected/private catalog fields");
+    assert(["",...mediaCategories].includes(artwork.mediaCategory),"Invalid media category");
     assert(artwork.images.length>0,"Published artwork requires a photo");
     for(const image of artwork.images) {
       assert.deepEqual(Object.keys(image).sort(),["src","avif","width","height","edge"].sort());

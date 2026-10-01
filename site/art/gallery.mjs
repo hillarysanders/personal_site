@@ -4,12 +4,12 @@ export const dimensionKey = art => art.width && art.height ? art.width + "x" + a
 export const dimensionLabel = art => art.width && art.height ? art.width + " × " + art.height + " in" : "";
 export const matches = (art, state) =>
   (state.theme === "all" || art.themes.includes(state.theme)) &&
-  (state.medium === "all" || art.medium === state.medium) &&
+  (state.medium === "all" || art.mediaCategory === state.medium) &&
   (state.size === "all" || art.sizeCategory === state.size) &&
   (state.dimensions === "all" || dimensionKey(art) === state.dimensions) &&
   (state.availability === "all" || art.availability === state.availability) &&
   (state.period === "all" || art.period === state.period) &&
-  [art.title, art.description, ...art.themes, art.medium, art.year].join(" ").toLowerCase().includes(state.search.trim().toLowerCase());
+  [art.title, art.description, ...art.themes, art.medium, art.mediaCategory, art.year].join(" ").toLowerCase().includes(state.search.trim().toLowerCase());
 export const priceLabel = art => art.price === null ? "" : new Intl.NumberFormat("en-US", {style:"currency", currency:art.currency, maximumFractionDigits:art.price % 1 ? 2 : 0}).format(art.price);
 export const statusLabel = art => ({sold:"Sold", private:"Private collection", available:"Available", "":""})[art.availability];
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);

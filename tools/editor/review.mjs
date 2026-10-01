@@ -8,6 +8,7 @@ export const detailChecks=[
   {id:"dimensions",label:"Missing dimensions",missing:art=>art.width===null||art.height===null},
   {id:"measurements",label:"Measurements unconfirmed",missing:art=>art.width!==null&&art.height!==null&&!art.dimensionsConfirmed},
   {id:"medium",label:"Missing medium",missing:art=>!art.medium.trim()},
+  {id:"mediaCategory",label:"Missing media category",missing:art=>!art.mediaCategory},
   {id:"surface",label:"Missing surface",missing:art=>!hasSurface(art)},
   {id:"categories",label:"Missing categories",missing:art=>!art.themes.length}
 ];

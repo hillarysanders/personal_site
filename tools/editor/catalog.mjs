@@ -4,6 +4,7 @@ import path from "node:path";
 import {fileURLToPath} from "node:url";
 import {DatabaseSync} from "node:sqlite";
 import {sortArtworks} from "../../site/art/gallery.mjs";
+import {mediaCategories,categoryForMedium} from "../../site/art/media.mjs";
 import {PUBLIC_FIELDS} from "../publication-schema.mjs";
 export {PUBLIC_FIELDS} from "../publication-schema.mjs";
 
@@ -13,7 +14,7 @@ export const paths={root,...Object.fromEntries(Object.entries(readJson(path.join
 export const siteConfig=()=>readJson(path.join(root,"config/site.json"));
 export const imageManifest=()=>readJson(path.join(paths.library,"output/web/manifest.json"));
 const seedCatalog=()=>readJson(path.join(paths.local,"catalog-seed.json"));
-export const EDITABLE=["title","description","themes","period","year","medium","surface","width","height","dimensionsConfirmed","sizeCategory","price","currency","availability","published","photoStatus","order","purchaseUrl","notes"];
+export const EDITABLE=["title","description","themes","period","year","medium","mediaCategory","surface","width","height","dimensionsConfirmed","sizeCategory","price","currency","availability","published","photoStatus","order","purchaseUrl","notes"];
 export class InputError extends Error {
   constructor(message,status=400){super(message);this.status=status;}
 }
@@ -63,7 +64,9 @@ export function resolvedCatalog(db,{seed=seedCatalog(),manifest=imageManifest(),
   const membership=new Map(db.prepare("SELECT artwork_id,series_id,position,title FROM series_members JOIN artwork_series ON series_id=artwork_series.id").all().map(member=>[member.artwork_id,member]));
   const artworks=seed.artworks.map(original=>{
     const edit=edits.get(original.id),member=membership.get(original.id);
-    const art=edit?{...original,...categoryValues(JSON.parse(edit.document),original,config),revision:edit.revision,updatedAt:edit.updated_at}:{...original};
+    const art=categoryValues(edit?{...original,...categoryValues(JSON.parse(edit.document),original,config),revision:edit.revision,updatedAt:edit.updated_at}:{...original},original,config);
+    // Upgrade pre-category records on read; explicit owner assignments (including blank) win.
+    if(!Object.hasOwn(art,"mediaCategory"))art.mediaCategory=categoryForMedium(art.medium);
     if(original.images.length&&!Object.hasOwn(manifest,art.id))throw new Error("Finished artwork is missing from the image manifest: "+art.id);
     const images=Object.hasOwn(manifest,art.id)?imageVariants(art.id,manifest[art.id]):[];
     return {...art,images,referenceImage:images.length?null:original.referenceImage,theme:art.themes[0]||"",sizeCategory:sizeCategory(art,config),
@@ -89,6 +92,7 @@ export function validate(values,original) {
   if(values.dimensionsConfirmed&&values.width===null)throw new InputError("Confirmed measurements need width and height.");
   if(!Number.isInteger(values.order)||values.order<0)throw new InputError("Display order must be a positive whole number or zero.");
   for(const [field,allowed] of Object.entries({availability:["","available","private","sold"],photoStatus:["ready","review","needs_photo"],sizeCategory:["Small","Medium","Large","Unclassified"]}))if(!allowed.includes(values[field]))throw new InputError("Invalid "+field+".");
+  if(!["",...mediaCategories].includes(values.mediaCategory))throw new InputError("Invalid media category.");
   if(!/^[A-Z]{3}$/.test(values.currency))throw new InputError("Use a three-letter currency code, such as USD.");
   if(values.published&&!original.images.length)throw new InputError("This artwork needs a finished photo before it can be shown.");
   if(values.purchaseUrl){
