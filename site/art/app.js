@@ -75,8 +75,7 @@ function setLayout(value, {render = true} = {}) {
   if (!["size", "uniform"].includes(value)) throw new Error("Unknown gallery layout: " + value);
   layout = value;
   grid.dataset.layout = layout;
-  document.querySelectorAll("button[data-layout]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.layout === layout)));
-  query("#layout-note").textContent = layout === "size" ? "Larger paintings get more space" : "Equal widths";
+  query("#size-layout").setAttribute("aria-checked", String(layout === "size"));
   if (render) renderCollection({announce:false});
 }
 function renderCollection({announce = true} = {}) {
@@ -184,11 +183,10 @@ function setupControls() {
     if (event.target.dataset.filter) setFilters({[event.target.dataset.filter]:event.target.value});
   });
   query('[data-filter="search"]').addEventListener("input", event => setFilters({search:event.target.value}));
+  query("#size-layout").addEventListener("click", () => setLayout(layout === "size" ? "uniform" : "size"));
   document.addEventListener("click", event => {
     const artwork = event.target.closest("[data-art]");
     const theme = event.target.closest("[data-theme]");
-    const layoutButton = event.target.closest("button[data-layout]");
-    if (layoutButton) setLayout(layoutButton.dataset.layout);
     if (artwork) showArtwork(artwork.dataset.art, artwork);
     if (theme) setFilters({theme:theme.dataset.theme});
     if (event.target.closest("[data-reset]")) setFilters(emptyFilters());
