@@ -78,7 +78,6 @@ function updateDetailReview(){
 function openEditor(id){
   editing=artworks.find(art=>art.id===id);dirty=false;
   query("#editor-id").textContent=editing.id.toUpperCase();
-  query("#editor-title").textContent=editing.title||"Artwork details";
   const members=artworks.filter(art=>art.seriesId&&art.seriesId===editing.seriesId);
   query("#series-info").hidden=!editing.seriesId;
   query("#series-info").textContent=editing.seriesTitle+" · "+members.length+" linked works. Changing display order moves the whole series.";

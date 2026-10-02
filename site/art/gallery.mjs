@@ -33,15 +33,17 @@ export const galleryLayout = {largeAreaIn2:144, fullWidthInches:36};
 export const artworkSpan = art => art.width !== null && art.width >= galleryLayout.fullWidthInches ? 4 :
   (art.width !== null && art.height !== null ? art.width * art.height >= galleryLayout.largeAreaIn2 : art.sizeCategory === "Large") ? 2 : 1;
 
-/** Pack artwork or whole-series blocks into the earliest free rectangle. */
+/** Pack series blocks in reading order; later priorities never backfill above earlier ones. */
 export function masonryPositions(items, columns) {
   const placed = [];
   for (const item of items) {
     const width = Math.min(item.columns, columns);
+    const previous = placed.at(-1);
     const candidateRows = [...new Set([0, ...placed.map(card => card.row + card.rows)])].sort((first, second) => first - second);
     let position;
     for (const row of candidateRows) {
       for (let column = 0; column <= columns - width; column++) {
+        if (previous && (row < previous.row || (row === previous.row && column <= previous.column))) continue;
         const overlaps = placed.some(card => column < card.column + card.columns && column + width > card.column && row < card.row + card.rows && row + item.rows > card.row);
         if (!overlaps) { position = {...item, columns:width, row, column}; break; }
       }

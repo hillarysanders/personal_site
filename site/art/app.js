@@ -39,7 +39,6 @@ const masonryObserver = new ResizeObserver(() => {
   packingFrame = requestAnimationFrame(packGallery);
 });
 function packGallery() {
-  if (layout !== "size") return;
   const style = getComputedStyle(grid);
   const unit = parseFloat(style.gridAutoRows), gap = parseFloat(style.getPropertyValue("--card-gap"));
   const columns = Number(style.getPropertyValue("--gallery-columns"));
@@ -52,7 +51,7 @@ function packGallery() {
     }
     packingColumns = columns;
   }
-  const items = cards.map(card => ({id:card.querySelector("[data-art]").dataset.art, columns:Number(card.dataset.span), rows:Math.ceil((card.getBoundingClientRect().height + gap) / unit)}));
+  const items = cards.map(card => ({id:card.querySelector("[data-art]").dataset.art, columns:layout === "size" ? Number(card.dataset.span) : 1, rows:Math.ceil((card.getBoundingClientRect().height + gap) / unit)}));
   masonryPositions(items, columns).forEach((position, index) => {
     cards[index].style.gridRow = (position.row + 1) + " / span " + position.rows;
     cards[index].style.gridColumn = (position.column + 1) + " / span " + position.columns;
@@ -61,15 +60,8 @@ function packGallery() {
 function watchGallery() {
   masonryObserver.disconnect();
   cancelAnimationFrame(packingFrame);
-  if (layout === "size") {
-    packGallery();
-    for (const card of grid.children) masonryObserver.observe(card);
-  } else {
-    for (const card of grid.children) {
-      card.style.removeProperty("grid-row");
-      card.style.removeProperty("grid-column");
-    }
-  }
+  packGallery();
+  for (const card of grid.children) masonryObserver.observe(card);
 }
 function setLayout(value, {render = true} = {}) {
   if (!["size", "uniform"].includes(value)) throw new Error("Unknown gallery layout: " + value);
