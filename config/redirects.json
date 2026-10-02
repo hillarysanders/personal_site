@@ -1,6 +1,9 @@
 {
-  "/paint.html": "/art/",
-  "/mixed.html": "/art/",
-  "/ink.html": "/art/",
-  "/graphite.html": "/art/"
+  "origin": "https://hillarysanders.com",
+  "paths": {
+    "/paint.html": "/art/",
+    "/mixed.html": "/art/",
+    "/ink.html": "/art/",
+    "/graphite.html": "/art/"
+  }
 }

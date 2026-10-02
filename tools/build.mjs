@@ -34,7 +34,8 @@ export async function build({withImages=false}={}) {
   }
   await copy(source);
   const redirects=await readJSON(path.join(root,"config/redirects.json"));
-  const redirectRules=Object.entries(redirects).map(([from,to])=>`RedirectMatch 301 ^${from.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}$ ${to}`);
+  // NFS terminates TLS upstream; absolute HTTPS targets avoid an HTTP detour.
+  const redirectRules=Object.entries(redirects.paths).map(([from,to])=>`RedirectMatch 301 ^${from.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}$ ${new URL(to,redirects.origin)}`);
   await fs.appendFile(path.join(output,".htaccess"),"\n# Retired pages: keep old links pointing at the current collection.\n"+redirectRules.join("\n")+"\n");
   await fs.writeFile(path.join(output,"art/data.json"),JSON.stringify(catalog)+"\n");
   await fs.copyFile(path.join(source,"art/images.json"),path.join(output,"art/images.json"));

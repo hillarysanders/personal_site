@@ -69,9 +69,9 @@ test("clean public checkout builds without a private database or image library",
     const redirects=JSON.parse(await fs.readFile(path.join(isolated,"config/redirects.json"),"utf8"));
     const rootHeaders=await fs.readFile(path.join(output,".htaccess"),"utf8");
     assert(rootHeaders.includes("must-revalidate"));
-    for(const [from,to] of Object.entries(redirects)){
+    for(const [from,to] of Object.entries(redirects.paths)){
       assert(!files.includes(from.slice(1)),from);
-      assert(rootHeaders.includes(`RedirectMatch 301 ^${from.replace(".","\\.")}$ ${to}`));
+      assert(rootHeaders.includes(`RedirectMatch 301 ^${from.replace(".","\\.")}$ ${new URL(to,redirects.origin)}`));
     }
     const homepage=await fs.readFile(path.join(output,"index.html"),"utf8");
     assert(homepage.includes('<a class="btn homepage-btn" href="/art/">art</a>'));
