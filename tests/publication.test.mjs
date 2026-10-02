@@ -66,5 +66,15 @@ test("clean public checkout builds without a private database or image library",
     assert(html.includes('href="/art/"'));assert(!html.includes("<!-- SITE_NAV -->"));
     const headers=await fs.readFile(path.join(output,"art/.htaccess"),"utf8");
     assert(headers.includes("must-revalidate"));assert(!headers.includes("immutable"));
+    const redirects=JSON.parse(await fs.readFile(path.join(isolated,"config/redirects.json"),"utf8"));
+    const rootHeaders=await fs.readFile(path.join(output,".htaccess"),"utf8");
+    assert(rootHeaders.includes("must-revalidate"));
+    for(const [from,to] of Object.entries(redirects)){
+      assert(!files.includes(from.slice(1)),from);
+      assert(rootHeaders.includes(`RedirectMatch 301 ^${from.replace(".","\\.")}$ ${to}`));
+    }
+    const homepage=await fs.readFile(path.join(output,"index.html"),"utf8");
+    assert(homepage.includes('<a class="btn homepage-btn" href="/art/">art</a>'));
+    assert(!/dd_art|side-nav|href="(?:paint|mixed|ink|graphite)\.html"/.test(homepage));
   }finally{await fs.rm(isolated,{recursive:true,force:true});}
 });

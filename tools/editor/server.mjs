@@ -8,6 +8,7 @@ import {preparePublication,publicationStatus} from "../publication.mjs";
 import {renderHtml} from "../html.mjs";
 
 const editor=fileURLToPath(new URL("./",import.meta.url));
+const redirects=JSON.parse(await fs.readFile(new URL("../../config/redirects.json",import.meta.url),"utf8"));
 const types={".html":"text/html; charset=utf-8",".css":"text/css; charset=utf-8",".js":"text/javascript; charset=utf-8",".mjs":"text/javascript; charset=utf-8",".json":"application/json; charset=utf-8",".svg":"image/svg+xml",".webp":"image/webp",".avif":"image/avif",".jpg":"image/jpeg",".jpeg":"image/jpeg",".png":"image/png",".ico":"image/x-icon",".woff2":"font/woff2",".woff":"font/woff",".ttf":"font/ttf",".pdf":"application/pdf"};
 const reply=(body,status=200,headers={})=>new Response(body,{status,headers:{"Cache-Control":"no-store","X-Content-Type-Options":"nosniff",...headers}});
 const json=(body,status=200)=>reply(JSON.stringify(body),status,{"Content-Type":types[".json"]});
@@ -44,6 +45,7 @@ export function createHandler(db,{catalogInputs,publication={preparePublication,
       if(pathname==="/api/publication/status"&&request.method==="GET")return json(await publication.publicationStatus());
       if(pathname==="/api/publication/prepare"&&request.method==="POST")return json(await publication.preparePublication());
       if(!["GET","HEAD"].includes(request.method))throw new InputError("Not found.",404);
+      if(Object.hasOwn(redirects,pathname))return reply(null,301,{Location:redirects[pathname]+url.search});
       if(["/art/data.json","/art/catalog.json"].includes(pathname)) {
         const draft=publicCatalog(catalog());draft.site.canAdmin=true;return json(draft);
       }

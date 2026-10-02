@@ -1,0 +1,4 @@
+# Revalidate navigation and pages so browsers do not retain the retired menus.
+<FilesMatch "\.(html|css|js|mjs)$">
+  Header set Cache-Control "public, max-age=0, must-revalidate"
+</FilesMatch>

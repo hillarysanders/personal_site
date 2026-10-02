@@ -113,6 +113,12 @@ test("loopback routes provide local drafts and reject private paths/cross-origin
     const catalog=await (await request("/api/admin/catalog")).json();assert.equal(catalog.artworks.length,3);
     const admin=await request("/admin/");assert.equal(admin.status,200);assert((await admin.text()).includes("Prepare publication"));
     const gallery=await request("/art/");assert.equal(gallery.status,200);assert(!(await gallery.text()).includes("<!-- SITE_NAV -->"));
+    for(const name of ["paint","mixed","ink","graphite"]){
+      for(const method of ["GET","HEAD"]){
+        const retired=await request(`/${name}.html?search=roses`,{method});
+        assert.equal(retired.status,301);assert.equal(retired.headers.get("Location"),"/art/?search=roses");
+      }
+    }
     for(const route of ["/tools/editor/catalog.mjs","/.local/catalog.sqlite","/config/paths.json","/%2e%2e%2f.local/catalog.sqlite"])
       assert.equal((await request(route)).status,404,route);
     assert.equal((await handle(new Request("http://evil.test/api/admin/catalog"))).status,403);

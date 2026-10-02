@@ -66,6 +66,12 @@ deployment, inventory/back up the existing hosted files: Git does **not** contai
 the old art photos or `images/beach.jpg`. Uploads preserve files outside our build;
 the deployment scripts never run `rsync --delete` against the host.
 
+The retired `paint.html`, `mixed.html`, `ink.html` and `graphite.html` galleries
+are removed from the public source and host. `config/redirects.json` sends their
+old URLs to `/art/` in both the local editor and the built Apache configuration.
+The original photos remain in the local archive; removing a page never deletes
+its photographs. Only explicitly retired files are removed from the host.
+
 1. Copy `config/deploy.example.json` to `.local/deploy.json` and fill in the NFS
    SSH host/user, public root and site origin. Configure an SSH key and verify the
    host key against NFS's published fingerprints. Store the verified host-key line
