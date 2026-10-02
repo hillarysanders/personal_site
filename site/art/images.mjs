@@ -3,6 +3,7 @@ import {escapeHtml as esc} from "./gallery.mjs";
 /** These slot widths mirror style.css, including the capped shell and both layouts. */
 export function gallerySizes(layout, span) {
   if (layout === "uniform") return "(max-width:600px) calc(100vw - 40px), (max-width:720px) calc((100vw - 58px)/2), (max-width:1050px) calc((100vw - 89px)/2), calc((min(1320px, 100vw - 112px) - 84px)/4)";
+  if (span === 4) return "(max-width:720px) calc(100vw - 40px), (max-width:1050px) calc(100vw - 64px), min(1320px, 100vw - 112px)";
   const slots = span === 2
     ? ["calc(100vw - 40px)", "calc(100vw - 64px)", "calc((100vw - 92px)/2)", "calc((min(1320px, 100vw - 112px) - 28px)/2)"]
     : ["calc((100vw - 58px)/2)", "calc((100vw - 82px)/2)", "calc((100vw - 148px)/4)", "calc((min(1320px, 100vw - 112px) - 84px)/4)"];

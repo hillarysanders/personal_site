@@ -28,9 +28,10 @@ export function artworkGroups(artworks){
 export const sortArtworks=artworks=>artworkGroups(artworks).flat();
 
 /** Compare painted area rather than the longest edge, so narrow panoramas also count. */
-export const galleryLayout = {largeAreaIn2:144};
+export const galleryLayout = {largeAreaIn2:144, fullWidthInches:36};
 /** Known large works keep their larger placement while exact measurements are pending. */
-export const artworkSpan = art => (art.width !== null && art.height !== null ? art.width * art.height >= galleryLayout.largeAreaIn2 : art.sizeCategory === "Large") ? 2 : 1;
+export const artworkSpan = art => art.width !== null && art.width >= galleryLayout.fullWidthInches ? 4 :
+  (art.width !== null && art.height !== null ? art.width * art.height >= galleryLayout.largeAreaIn2 : art.sizeCategory === "Large") ? 2 : 1;
 
 /** Pack artwork or whole-series blocks into the earliest free rectangle. */
 export function masonryPositions(items, columns) {
