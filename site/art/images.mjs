@@ -13,7 +13,7 @@ export function gallerySizes(layout, span) {
 export function viewerSizes(art, zoom = false) {
   const image = art.images.at(-1), ratio = image.width / image.height;
   if (zoom) return `min(calc(100vw - 64px), calc((100dvh - 94px)*${ratio}))`;
-  return `(max-width:720px) min(calc(100vw - 76px), calc(55dvh*${ratio})), (max-width:1050px) min(calc((100vw - 142px)*${1.65 / 2.65} - 36px), calc(100vw - 458px), calc((100dvh - 250px)*${ratio})), min(calc((min(1380px, 100vw - 64px) - 116px)*${1.65 / 2.65} - 52px), calc(min(1380px, 100vw - 64px) - 448px), calc((100dvh - 250px)*${ratio}))`;
+  return `(max-width:720px) min(calc(100vw - 40px), calc((100dvh - 101px)*${ratio})), min(calc(100vw - 98px - clamp(250px,24vw,320px)), calc((100dvh - 133px)*${ratio}))`;
 }
 
 /** Both codecs describe the same pixels; the browser downloads only its chosen format/size. */
